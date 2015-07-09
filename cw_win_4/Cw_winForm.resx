@@ -1,0 +1,1337 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="button_ToMp3.Text" xml:space="preserve">
+    <value>Записать MP3/WAV</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label_StartPause.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;label_Speed.Name" xml:space="preserve">
+    <value>label_Speed</value>
+  </data>
+  <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 7</value>
+  </data>
+  <data name="trackBar_Speed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 37</value>
+  </data>
+  <data name="label_Pause.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 21</value>
+  </data>
+  <data name="&gt;&gt;checkBox_infinity.Name" xml:space="preserve">
+    <value>checkBox_infinity</value>
+  </data>
+  <data name="&gt;&gt;checkBox_StartPause.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label_Show_Speed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 25</value>
+  </data>
+  <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>727, 415</value>
+  </data>
+  <data name="&gt;&gt;groupBox_regul.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_SafeFile.Name" xml:space="preserve">
+    <value>button_SafeFile</value>
+  </data>
+  <data name="&gt;&gt;trackBar_N.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label_FileName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 7</value>
+  </data>
+  <data name="&gt;&gt;label_Show_Tone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="groupBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 82</value>
+  </data>
+  <data name="label_N.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 12</value>
+  </data>
+  <data name="label_Show_Tone.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 9</value>
+  </data>
+  <data name="label_FileName.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="button_ToMp3.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="label_Show_Tone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 25</value>
+  </data>
+  <data name="&gt;&gt;label_StartPause.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="trackBar_N.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 42</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAQEAAAAEAIAAoQgAAFgAAACgAAABAAAAAgAAAAAEAIAAAAAAAAEIAAAAAAAAAAAAAAAAAAAAA
+        AAD7/fv//v////X18/+6taH/jIZh/4d+U/+OgFn/jYBY/4uAWP+LgFj/i4BY/4qAWP+LgFj/i4BY/4uA
+        WP+LgFj/i4BY/4uAWP+LgFj/i4BY/4uAWP+LgFj/i4BY/4uAWP+LgFj/i4BY/4uAWP+LgFj/i4BY/4uA
+        WP+LgFj/i4BY/4uBWP+LgFj/i4BY/4uAWP+LgFj/i4BY/4uAWP+LgFj/i4BY/4uAWP+LgFj/i4BY/4uB
+        WP+LgFj/i4BY/4uAWP+LgFj/i4BY/4uAWP+LgFj/i4BY/4uAWP+LgFj/i4BY/4qAWP+NgFn/koJZ/5yP
+        Zv+/uZ7/8fHr///////7/fv//////+3t5f+WkHH/fnRL/4Z7VP+Qglj/lYdb/5WIXP+ViFz/lYhc/5WI
+        XP+ViFz/lYhc/5WIXP+ViFz/lYhc/5WIXP+ViFz/lYhc/5WIXP+ViFz/lYhc/5WIXP+ViFz/lYhc/5WI
+        XP+ViFz/lYhc/5WIXP+ViFz/lYhc/5WIXP+ViFz/lYhc/5WIXP+ViFz/lYhc/5WIXP+Vh1z/lYhc/5WI
+        XP+ViFz/lYhc/5WIXP+ViFz/lYhc/5WIXP+ViFz/lYhc/5WIXP+ViFz/lYhc/5WIXP+ViFz/lYhc/5WI
+        XP+ViFz/lYdc/5qMXv+kk2P/pJRd/66leP/s697///////f49f+bk3P/fnRH/4mAWf+Kf1f/lohb/5+P
+        Yf+fkGH/n49h/6CQYf+gkGH/oI9h/6CQYf+fkGH/oJBh/5+PYf+fkGH/n5Bh/5+QYf+fkGH/n5Bh/6CP
+        Yf+fkGH/oJBh/6CPYf+fkGH/n5Bh/5+QYf+fkGH/n5Bh/6CQYf+fkGH/oJBh/5+QYf+fkGH/n5Bh/5+Q
+        Yf+fkGH/n5Bh/5+QYf+fkGH/n49h/5+QYf+gj2H/n5Bh/5+QYf+gj2H/n5Bh/6CQYf+gkGH/n49h/6CQ
+        Yf+fkGH/oJBh/6CQYf+fkGH/oJBh/56PYf+klmT/saFs/7yrdP+5p2v/vK9///X17v/Au6j/gXRM/4l/
+        Wf+GfVT/joRX/56RYP+omWf/p5lm/6aYZv+nmGb/p5hm/6aZZv+nmGb/p5hm/6eZZv+nmGb/p5hm/6eY
+        Zv+nmGb/pphm/6eYZv+mmGb/pphm/6eYZv+nmGb/p5hm/6eZZv+mmGb/pphm/6eZZv+mmWb/pphm/6eY
+        Zv+nmGb/p5lm/6eYZv+mmGb/pphm/6eYZv+mmGb/pphm/6eYZv+nmGb/p5lm/6eYZv+nmGb/p5hm/6eY
+        Zv+nmGb/p5hm/6eYZv+nmGb/p5hm/6eYZv+nmGb/p5hm/6aYZv+nmWb/saFq/8Kxd//Munz/z759/8Sz
+        cP/Ryqf/k41t/4V6UP+Iflb/h35V/5iMXP+omGb/qZtn/6mbZ/+pm2f/qZtn/6mbZ/+pm2f/qZtn/6mb
+        Z/+pm2f/qZtn/6mbZ/+pm2f/qZtn/6mbZ/+pm2f/qZtn/6mbZ/+pm2f/qZtn/6mbZ/+pm2f/qZtn/6mb
+        Z/+pm2f/qZtn/6mbZ/+pm2f/qZtn/6mbZ/+pm2f/qZtn/6mbZ/+pm2f/qptn/6mbZ/+pm2f/qZtn/6mb
+        Z/+pm2f/qZtn/6mbZ/+pm2f/qZtn/6mbZ/+pm2f/qZtn/6mbZ/+pm2f/qZtn/6mbZ/+qm2f/qZpo/66e
+        Zv/Qv4H/6dim/97Mj//Xw3//x7iD/4h+Vv+HfVT/h31V/4qAV/+fkmP/qZhm/6aYZP+mmGT/ppdk/6aY
+        ZP+mmGT/pphk/6aYZP+lmGT/pphk/6aYZP+mmGT/ppdk/6aYZP+mmGT/ppdk/6aXZP+mmGT/pphk/6aX
+        ZP+mmGT/pphk/6aYZP+mmGT/pphk/6aXZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aY
+        ZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/ppdk/6aYZP+ml2T/pphk/6aXZP+ml2T/ppdk/6aX
+        ZP+mmGT/pphk/6aYZf+klGH/vKpz/+3hvP/n2Kr/3MeE/827ev+IfVT/h31V/4Z8Vf+LgVb/opRj/6eZ
+        ZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aY
+        ZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aY
+        ZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aY
+        ZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+nmWT/pJVj/7Skbv/q37b/5tmr/9zGhP/Nu3v/h31V/4d9
+        Vf+HfFX/i4FV/6KUYv+nmWP/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aY
+        ZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aY
+        ZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aY
+        ZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/p5ll/6SWYv+1pm//6uC3/+ba
+        q//cxoX/zbp8/4d9Vf+HfVX/hnxV/4uBVf+ilGL/p5lj/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6eY
+        Zf+nmWb/p5lm/6eZZv+nmWX/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/p5hl/6eZZv+nmWb/p5lm/6aZ
+        Zf+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/p5lm/6eZZv+nmWb/pphk/6aYZP+mmGT/pphk/6eZ
+        Zv+nmWb/p5ll/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGX/p5lm/6eZZf+nmWX/pphk/6eZ
+        ZP+klmL/taVv/+rgtv/m2qv/3MaF/827fP+HfVX/h31V/4Z8Vf+LgVX/opRi/6eZY/+mmGT/pphk/6aY
+        ZP+mmGT/pphk/6aZZf+klmH/oZJb/6GSW/+hklv/o5Vf/6eZZP+mmGT/pphk/6aYZP+mmGT/pplk/6SV
+        X/+hklv/oZJb/6GSW/+llmD/pphl/6aYZP+mmGT/pphk/6aYZP+mmGT/pZdi/6KTXP+hklv/o5Rd/6aY
+        Y/+mmGT/pphk/6aYY/+ilFz/oZJa/6OUXv+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+nmWX/pZdi/6KU
+        Xf+jlF3/pJVf/6eZZf+nmGT/pJZi/7Wmb//q4Lb/5tqr/9zGhf/Nunz/h31V/4d9Vf+HfFX/i4FV/6KU
+        Yv+nmWP/pphk/6aYZP+mmGT/pphk/6aYZf+llmH/q59y/761kf/AtpL/wLeT/7GmfP+llmH/p5hk/6aY
+        ZP+mmGT/p5ll/6SXYf+wpHv/wLaS/7+2kv++tpL/raB0/6aWYf+nmGX/pphk/6aYZP+mmGT/ppdj/6mc
+        av+7soz/wriU/7arhP+lmGT/p5hk/6aYY/+nmGb/ua+J/8C5lP+0qYL/ppdj/6aYZP+mmGT/pphk/6aY
+        ZP+nmWX/pJRf/6mdb/+1q4L/tKyC/66keP+llWH/p5ll/6OWYv+1pm//6uC2/+baq//cxoX/zbt8/4d9
+        Vf+HfVX/h3xV/4uBVf+ilGL/p5lj/6aYZP+mmGT/pphk/6aYZP+mmGT/pJdi/+nn2v///////v79////
+        ///7/Pz/s6mA/6OVXv+nmWX/ppll/6WVYP+wpHj/9/n1///////+/v3//////+3t5v+omWn/p5hi/6aY
+        Zf+mmGT/p5lm/6KSWf/Fvp7////////////5+vn/rqF4/6aWYf+jlF7/tauE//7/////////9vfy/6qf
+        cP+llmH/p5hl/6aYZP+nmWb/o5Ve/7Oofv/y8+3//v////3//f/8/fz/ubGK/6KVXf+ll2T/taVv/+rg
+        t//m2qv/3MaF/826fP+HfVX/h31V/4Z8Vf+LgVX/opRi/6eZY/+mmGT/pphk/6aYZP+omWX/o5Re/7Sn
+        ff/8/f3/+/37//v8+f/5+/f//////8nBpP+gkVn/p5pm/6eaZv+gkVr/xL2b///////6+/j/+/z5//v9
+        +f/+////t66G/6OVW/+mmWb/pphk/6iaZv+gkVr/x7+k///////6/Pj/+fv4/7CjeP+mlmL/o5Re/7et
+        hv/9//7//P77//b49P+qoHP/pZZg/6aYZf+mmGT/p5lk/6OVX//n5dj///////v9+v/6/Pn//////8vD
+        qv+gkVr/pZdl/7Wlb//q4Lb/5tqr/9zGhf/Nunz/h31V/4d9Vf+HfFX/i4FV/6KUYv+nmWP/pphk/6aY
+        ZP+mmGT/qJpm/6GRW//GvKH///////v9+v/9/v3/+/36///////c2Mj/oZJc/6eZZv+nmWb/oJJa/9nW
+        wv//////+/z6//3+/f/7/Pr//////83Grf+hkVj/p5pn/6aYZP+nmmb/oJFa/8a/o////////P37//n7
+        +f+wo3j/pZZi/6OUXv+2rYX//f/+//3//v/2+PT/q6By/6WWYf+mmWX/p5lm/6KSW/+/tpX///////v9
+        +v/8/vz/+/z6///////Kwqj/oZFb/6WXZf+1pW//6uC2/+baq//cxoX/zbt8/4d9Vf+HfVX/hnxV/4uB
+        Vf+ilGL/p5lj/6aYZP+mmGT/pphk/6eaZv+ikVz/3NnF///////8/vz/8fLs//b28///////7+3m/6WZ
+        ZP+nmGT/p5hk/6SYZf/t7OP///////z+/P/v7uj/+fv4///////h39D/oZNe/6eZZv+mmGT/p5pm/6CR
+        Wv/Gv6P///////v9+//5+/n/sKN4/6aWYv+jlF7/tq2F//7//v/9//7/9vj0/6ugcv+klmH/qJhl/6aY
+        ZP+mlmX/7Orf///////7/fr//P78//v8+v//////ysOo/6GRW/+ll2X/taVv/+rgtv/m2qv/3MaF/826
+        fP+HfVX/h31V/4d8Vf+LgVX/opRi/6eZY/+mmGT/pphk/6aZZP+ml2P/pppn/+/v6P/+//7//////9HO
+        tv/n5dr///////r8+v+wpnz/pZVg/6OVX/+0qH3/+/z7//z++//+////ycOp//T07v//////8/Tu/6qd
+        b/+ll2H/pphl/6eaZv+gkVr/xr+j///////7/fv/+fv5/7CjeP+mlmL/o5Re/7athf/+//7//f/+//b4
+        9P+roHL/pJZg/6mZaf+hkFn/xb+i///////7/fr/+/z7//j6+P/7/fr//////8rCqP+gkVv/pZhl/7Wm
+        b//q4Lb/5tqr/9zGhf/Nunz/h31V/4d9Vf+GfFX/i4FV/6KUYv+nmWP/pphk/6aYZP+nmWX/pJRe/7Sq
+        f//8/v3/+/36//////+6sIj/2NK7////////////w72b/6KTXf+hklz/x8Cg///////8/vz/+fr2/62i
+        d//q6d7///////////+7soz/opNc/6eZZv+nmWb/oJFa/8a/o///////+/37//n7+f+wo3j/ppVi/6OU
+        Xv+2rYX//v/+//3//v/2+PT/q6By/6WWYf+nl2P/qptq//Dw6f/+/////v///+7u5v/n597/////////
+        ///Kwqj/oJFb/6WXZf+1pW//6uC2/+baq//cxoX/zbp8/4d9Vf+HfVX/hnxV/4uBVf+ilGL/p5lj/6aY
+        ZP+mmGT/p5pn/6GRWf/Kw6f///////z9+//6/Pn/qZtq/8a+n////////////9bRv/+gk1v/oZJf/93Y
+        x////////////+vp3/+dj1n/29jH////////////z8mx/6CQWv+nmmb/p5pm/6CRWv/Gv6P///////v9
+        +//5+/n/sKN4/6aWYv+jlF7/t62F//7//v/9//7/9vj0/6ugcv+mmGP/opFa/83Gr///////+fv3////
+        ///Mxar/4d/R////////////ysOo/6CRW/+lmGX/taZv/+rgtv/m2qv/3MaF/826fP+HfVX/h31V/4Z8
+        Vf+LgVX/opRi/6eZY/+mmGT/pphk/6eZZv+gklz/39zL///////+////6+rh/6GSXf+1qoD//P37////
+        ///q6eD/opZi/6iZZ//v7uf//f/+///////W0r3/molQ/8nBp////////////+Xj1/+ilV7/qJhl/6ia
+        Zv+gkVr/xr+j///////7/fv/+fv5/7CjeP+mlmL/o5Re/7athf/+//7//f/+//b49P+roHP/o5Re/6yg
+        c//29vH//f/9//3//v/09fD/p5pr/+bl1////////////8rDqP+gkVv/pZdl/7Wmb//q4Lb/5tqr/9zG
+        hf/Nu3z/h31V/4d9Vf+GfFX/i4FV/6KUYv+nmWP/pphk/6aYZf+ll2L/qJxr//Lx7P/9//3//////9jT
+        v/+fkFn/qZxt//Hw6v//////+Pn2/6qdcP+ypXv//P38//v9+///////wbiX/52OVP+4rIf//f////3/
+        /f/2+PT/rKBz/6aWYf+nmmf/oJFa/8a/o///////+/37//n7+f+wo3j/ppZi/6OUXv+2rYX//v/+//3/
+        /v/2+PT/q6J1/5+OWP/Uz7n///////n7+P//////zMas/5uOVf/o6d3////////////Kw6j/oJFb/6WX
+        Zf+1pm//6uC2/+baq//cxoX/zbt8/4d9Vf+HfVX/hnxV/4uBVf+ilGL/p5lj/6aYZP+nmWb/o5Nd/7mu
+        h//+////+vz5///////EvZ//opNb/6GTYP/f3c3///////////+7sIn/xLuZ///////8/vv/+Pr3/66k
+        d/+jlVz/qp1t//Pz7v/9//7//////761kf+hkl3/qJto/6CRWv/Gv6P///////v9+//5+/n/sKN4/6aV
+        Yv+jlF7/tq2F//7//v/9//7/9/n1/6idbf+vonX/+fr4//z+/P/+////8PDq/6mZa/+jlF7/6Ofb////
+        ////////ysKo/6CRW/+ll2X/taZv/+rgt//m2qv/3MaF/826fP+HfVX/h31V/4Z8Vf+LgVX/opRi/6eZ
+        Y/+mmGT/qJln/6CQWv/Oxq3///////v9+v/7/fr/saZ8/6WWYf+hklr/y8Sq////////////zcev/9jT
+        wP///////////+no3/+klmL/p5lm/6KUXf/k4dT////////////Uz7r/oZBb/6mbaf+gkVr/xr+i////
+        ///8/fv/+fv4/7Cjd/+llmL/o5Re/7ethf/+//7//f/+//f59v+lmWn/2tXC///////5+/j//////8S9
+        n/+iklv/pZdh/+jm2v///////////8rCqP+gkVv/pZdl/7Wlb//q4Lb/5tqr/9zGhf/Nu3z/h31V/4d9
+        Vf+GfFX/i4FV/6KUYv+nmWP/pphk/6eZZv+ilF3/5OHU///////+////7u7m/6WZZv+nmWX/opNc/7qv
+        i//+/////////+fm4P/u7ef//v/+///////W0Lz/oJFa/6mbaf+hkVj/zsqz////////////6Ofc/6OV
+        Yf+ommf/oJFa/8e/pf//////+/36//r8+v+xonr/pZZh/6OUXv+2rYX//v/+//7////z8+3/urCM//r6
+        +P/8/vz//////+rq3/+ml2T/qJhl/6SVX//o5tv////////////Kw6j/oJFb/6WXZf+1pm//6uC2/+ba
+        q//cxoX/zbp8/4d9Vf+HfVX/h3xV/4uBVv+ilGL/p5lj/6aZZP+llmL/qZ5v//T18P/9/v3//////9zZ
+        x/+hklv/p5pn/6WWYv+snW3/9PTu//7////8/fv//P38//v9+v//////wbiW/6GSW/+pmmn/opFc/7y1
+        kv///////P77//j5+P+wonj/pZdh/6KSXf/DuZn////////////09fH/raBz/6aXY/+jlF7/t62F//3/
+        /v//////6urf/9rXxv//////+vz4//////++tZX/o5Jb/6mZaP+klV//6Oba////////////ysOo/6CR
+        W/+ll2X/taVv/+rgtv/m2qv/3MaF/827fP+HfVX/h31V/4Z8Vf+LgVX/opRi/6eZY/+nmWX/opJd/7ux
+        i///////+vz5///////JwaT/oJFZ/6iaZv+nmGb/o5Ng/+Xj1P//////+/z6//z9+//9//3/+fr3/6+j
+        d/+klWD/p5lm/6SVYP+vonb/+Pn2//z++///////wrmX/6GSW/+nmWX/p5ho/7GjeP+0qHz/raB0/6WY
+        Y/+nmWb/opNd/7ethf/+/////f/9//b39P/3+PT//P78///////k4tX/opRg/6eZZv+omGX/pJVf/+jm
+        2v///////////8rCqP+gkVv/pZdl/7Wlb//q4Lb/5tqr/9zGhf/Nu3z/h31V/4d9Vf+HfFX/i4FV/6KU
+        Yv+nmWP/p5lm/5+RWf/RzLT///////r8+f/9//7/uKuE/6OUXf+nmWX/p5ln/6GQWv/Qy7P///////r8
+        +f/7/fv//////+ro3v+klmP/pplk/6aYZP+mmGT/pZdj/+zq3//+/////////9bSvf+gkVr/qJpn/6KV
+        YP+pnG7/r6J0/6WYZP+klmH/p5lm/6KTXf+3rYX//v////z++//8/vz//P78//v9+//+//7/ua6I/6KU
+        W/+nmmb/qJhl/6SVX//o5tr////////////Kwqj/oJFb/6WXZf+1pm//6uC2/+baq//cxoX/zbt8/4d9
+        Vf+HfVX/hnxV/4uBVf+ilGL/p5lk/6eZZf+hlGD/5OPV///////8/vz/8vHr/6mcaf+ll2P/pphk/6iZ
+        Z/+jklv/vLOS///////6/Pj/+vv4///////W0bz/oJFa/6eZZ/+mmGT/p5pm/6GRWv/Z1MD///////3/
+        /f/r6+H/pZlk/6OTW//BuZb/+vv7//z+/P/u7+b/r6Jz/6WXYf+ilF7/t62F//3//f/7+/r/+/z6//n7
+        9///////39vN/6GRXf+ommT/pphk/6iYZf+klV//5+XZ//7/////////ysKn/6CRW/+ll2T/taVv/+rg
+        tv/m2qv/3MaF/827fP+HfVX/h31V/4Z8Vf+LgVX/opRi/6eaZP+klWD/r6N1//v7+f///////////+Pg
+        0v+hk17/p5ll/6aYZP+mmGX/pJVh/62hdf/5+fj///////79/f//////v7eV/6GSW/+nmWb/pphk/6ea
+        Zv+hkVn/xb6i///////+/v3//f7+/7WpgP+ejVX/3tnK///////4+vb//////8K4l/+ikl3/pJVg/7Sr
+        gv////////////7+/v//////+vr3/7GnfP+jlF7/p5ll/6aYZP+omGX/pJVf/+rn3v///////////8vD
+        q/+gkVr/pZhl/7Wlb//q4Lb/5tqr/9zGhf/Nu3z/h31V/4d9Vf+HfFX/i4FV/6KUYv+nmWT/pZZh/6yg
+        cP/f3cv/5uTW/+jn3P/BuJj/opNd/6eZZv+mmGT/pphk/6aZZf+klWH/zsiw/+jm2v/n5df/3NnI/6mb
+        bP+ll2H/pphl/6aYZP+mmGX/pZZg/66id//g3s//5+XY/+Ph0/+zpXv/oI5V/9LMuP///////v38////
+        //+4rof/o5Nd/6eZZv+lmGX/zcWr/9/byP/c2MX/3NfG/7euiP+jlF3/p5ll/6aYZP+mmGT/qJhm/6OU
+        X//Kxqz/6Ofb/+Xj1/+3rof/pZRf/6SWZP+1pm//6uC2/+baq//cxoX/zbt8/4d9Vf+HfVX/h3xV/4uB
+        Vf+ilGL/p5lj/6aYZP+llmL/oZNc/6OTYP+ikl7/pJRg/6eYZf+mmGT/pphk/6aYZP+mmGT/p5hk/6KS
+        Xv+ik17/o5Re/6GTXP+ll2P/pphl/6aYZP+mmGT/pphk/6aYZv+kl2H/oZNc/6OUX/+ik1z/p5dg/6aX
+        Yv+qm27/yMGm/9POtf/At5f/ppVk/6eYZP+mmGT/pphj/6CRXP+hkFv/opFb/6GQW/+jk1//pplm/6aY
+        ZP+mmGT/pphk/6eXZf+nmGT/o5Nd/6KUXv+ik13/pZRg/6eYZv+jlmL/taZv/+rgt//m2qv/3MaF/827
+        fP+HfVX/h31V/4Z8Vf+LgVX/opRi/6eZY/+mmGP/pphl/6eZZv+mmGb/p5lm/6aZZv+mmGT/pphk/6aY
+        ZP+mmGT/pphk/6aYZP+nmWb/p5lm/6eZZv+nmWb/pphl/6aYY/+mmGT/pphk/6aYZP+mmGT/pphl/6eZ
+        Z/+nmWb/p5lm/6aYZf+mmGX/ppdh/6CRWv+fkFr/opJb/6eYZP+mmGT/pphk/6aYZP+ommb/qJlm/6iZ
+        Zv+ommb/pplm/6aYZP+mmGT/pphk/6aYZP+mmGT/pphl/6eZZv+nmWX/p5lm/6eYZv+mmGT/pJZi/7Wm
+        b//q4Lb/5tqr/9zGhf/Nunz/h31V/4d9Vf+HfFX/i4FV/6KUYv+nmWP/pphk/6aYZP+mmGT/pphk/6aY
+        ZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aY
+        ZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZf+nmmb/qJpm/6eZZv+mmGT/pphk/6aY
+        ZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aY
+        ZP+mmGT/p5ll/6SWYv+1pW//6uC2/+baq//cxoX/zbp8/4d9Vf+HfVX/hnxV/4uBVf+ilGL/p5lj/6aY
+        ZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aY
+        ZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aY
+        ZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aY
+        ZP+mmGT/pphk/6aYZP+mmGT/pphk/6eYZf+klmL/taZv/+rgtv/m2qv/3MaF/826fP+HfVX/h31V/4Z8
+        Vf+LgVX/opRi/6eZY/+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6eZ
+        Zv+nmmb/p5pm/6eaZv+nmWb/ppll/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aY
+        ZP+mmWX/p5lm/6eZZv+nmWb/p5ll/6aYZP+mmGT/pphk/6aYZP+mmGT/p5hk/6eZZf+nmWb/qJlm/6eZ
+        Zv+mmWT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+nmGX/pJZi/7Wlb//q4Lb/5tqr/9zG
+        hf/Nunz/h31V/4d9Vf+GfFX/i4FV/6KUYv+nmWP/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aY
+        ZP+mmGT/qJlm/6aXY/+jk1z/oJFa/6CPXP+gkFv/oZFb/6SUX/+omWX/p5lm/6aYZP+mmGT/pphk/6aY
+        ZP+mmGT/pphk/6aYZP+mmGT/pZdg/6KTW/+ik1z/opJc/6SVYP+mmWX/pphk/6aYZP+mmGT/pphk/6aY
+        Zf+klWD/opJb/6OTW/+ik1v/pZZh/6aYZf+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/p5ll/6SW
+        Yv+1pW//6uC2/+baq//cxoX/zbt8/4d9Vf+HfVX/hnxV/4uBVf+ilGL/p5lk/6aYZP+mmGT/pphk/6aY
+        ZP+mmGT/pphk/6aYZP+mmWX/pplk/6CSWv+mm2j/ubGM/8rFpv/RzLL/z8qw/8K9nP+wp37/oZVe/6OU
+        Xv+nmWX/pphk/6aYZP+mmGT/pphk/6aYZP+mmWT/pZZh/6udc/+9so7/vbKP/76zkP+vpHb/pJZi/6aY
+        Zf+mmGT/pphk/6aZZf+llmH/sKN5/72zkf+9s43/vLKN/6qecP+ll2D/p5hl/6aYZP+mmGT/pphk/6aY
+        ZP+mmGT/pphk/6eZZf+klmL/taVv/+rgtv/m2qv/3MaF/826fP+HfVX/h31W/4Z8Vf+LgVX/opRi/6eZ
+        Y/+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmWX/pphj/6STYf/IwaT/8fHq//7/////////////////
+        /////////P38/+Pi0/+zqH7/o5Vg/6eZZf+mmGT/pphk/6aYZP+mmGT/p5hj/6aXZP/q6d3///////7+
+        /f//////+Pn2/7Clef+klV//p5ll/6eZZf+jlV//saV8//n59v///////v79///////p6d3/ppdl/6aY
+        ZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+nmGX/pJZi/7Wlb//q4Lb/5tqr/9zGhf/Nu3z/h31V/4d9
+        Vv+GfFX/i4FV/6KUYv+nmWT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGX/p5hk/6OVYv/c2cf///////7+
+        /f/6/Pn//f79//////////////////3+/f//////8fDq/6qbaf+ml2L/pphl/6aYZP+mmGT/p5ll/6SU
+        Xv+0q3///f////v9+//7/Pr/+vv4///////EvJz/oZFb/6eaZv+omWf/oJFa/8i/pf//////+vv4//r8
+        +f/7/fv//f/+/7Oqgf+jlF7/p5ll/6aYZP+mmGT/pphk/6aYZP+mmGT/ppll/6SWYv+1pm//6uC2/+ba
+        q//cxoX/zbp8/4d9Vf+HfVX/h3xV/4uBVf+ilGL/p5lj/6aYZP+mmGT/pphk/6aYZP+mmGT/p5pl/6CS
+        Wv/RzbT///////r8+f/7/Pr///////Pz7v/b2cX/1dO9/9/dy//19fL///////n6+v+uoXf/pJZg/6eY
+        Zf+mmGT/pphk/6eaZv+gkVr/x8Gi///////7/fr//f78//v8+v//////2dPB/6GRW/+nmmb/p5lm/6GR
+        W//b2Mj///////v8+v/9/v3/+/z6///////Jwqb/oJFa/6eaZv+mmGT/pphk/6aYZP+mmGT/pphk/6eY
+        Zf+klmL/taVv/+rgtv/m2qv/3MaF/826fP+HfVX/h31V/4d8Vf+LgVX/opRi/6eZZP+mmGT/pphk/6aY
+        ZP+mmGT/ppll/6SVX/+xpnv/+/v5//z+/P/7/fv//v///9fRuf+qm2r/oJFb/6CRWv+hklv/q55w/9LM
+        tP/w7+b/qp5w/6SWYf+nmGX/pphk/6aYZP+nmWb/oZJc/9/bzf///////P78//Hx7v/3+PT//////+vp
+        4f+klWT/p5lk/6aXZP+nmGj/7+/m///////8/vz/7+7q//n7+P//////39rM/6GRXP+nmWb/pphk/6aY
+        ZP+mmGT/pphk/6aYZP+nmWX/pJZi/7Wlb//q4Lb/5tqr/9zGhf/Nunz/h31V/4d9Vf+GfFX/i4FV/6KU
+        Yv+nmWP/pphk/6aYZP+mmGT/pphk/6eaZv+gkFn/0Mmx///////6+/j//////+He0f+fkFr/ppZh/6ia
+        Zv+nmmb/p5pm/6SWYP+hkVz/qp1u/6aYZf+mmGT/pphk/6aYZP+mmGT/pZdj/6ibav/y8uv//f/+////
+        ///Py7j/6eje///////4+ff/r6N3/6SXYf+jlF//tquC//3//f/8/vz//f79/8jDqv/29vL///////Hx
+        6/+om2n/ppdk/6aYZP+mmGT/pphk/6aYZP+mmGT/p5ll/6SWYv+1pW//6uC2/+baq//cxoX/zbp8/4d9
+        Vf+HfVX/h3xV/4uBVf+ilGL/p5lk/6aYZP+mmGT/pphk/6aYZP+nmWX/o5Rh/+fl2f//////+/z5//7/
+        //+3roj/pJNd/6eaZ/+mmGT/pphk/6aYZP+mmWX/p5lm/6WXYv+mmGT/pphk/6aYZP+mmGT/p5lm/6OU
+        Xf+3rIP//f7///v9+v//////uK6F/9vWxf///////////7+4lf+ik13/oZJc/8rCqP///////P78//b3
+        8/+sonb/7u3k///////9//7/uK2G/6OTXv+nmWX/pphk/6aYZP+mmGT/pphk/6eZZf+klmL/taVv/+rg
+        t//m2qv/3MaF/826fP+HfVX/h31V/4d8Vf+LgVX/opRi/6eZY/+mmGT/pphk/6aYZP+mmGX/pZdi/6ic
+        bP/y8+3//v////7////z8+3/qZts/6aYYP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmWX/pphk/6aY
+        ZP+mmGT/pphk/6eaZv+hkVn/zsaq///////8/vz/+Pr2/6aYaP/Lwqf////////////Tzrb/opFc/6OU
+        Xv/f283////////////n59v/nJBX/+Ddz////////////8zFqf+gkVr/p5pn/6aYZP+mmGT/pphk/6aY
+        ZP+nmGX/pJZi/7Wmb//q4Lb/5tqr/9zGhf/Nunz/h31V/4d9Vf+GfFX/i4FV/6KUYv+nmWT/pphk/6aY
+        ZP+mmGT/p5hl/6SVYP+wpHf/+fv4//z+/P//////6Ofb/6OVYf+mmGX/pphk/6aYZP+mmGT/pphk/6aY
+        ZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+omWX/opNc/+Pf0f///////////+np3v+ekVr/uq6F//3/
+        /f//////5+bb/6GUYP+pmmv/8fDq//3//v//////0864/5qJT//Nxq3////////////i39H/oZJe/6eZ
+        Zf+mmGT/pphk/6aYZP+mmGT/p5hl/6SWYv+1pm//6uC2/+baq//cxoX/zbp8/4d9Vf+HfVX/h3xV/4uB
+        Vf+ilGL/p5lj/6aYZP+mmGT/pphk/6eZZf+jlV//saV5//r8+v/7/fv//////+Pi1f+hk17/p5ll/6aY
+        ZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+nmGX/pJZi/6yebf/09PD//P/9////
+        ///Vz7r/no9Y/6uecP/z9O////////b39P+nm2n/tKp+//3//v/7/fr//////721k/+djVT/urGM//3/
+        ///9//7/9PTw/6mebv+ll2H/pphl/6aYZP+mmGT/pphk/6eZZf+klmL/taVv/+rgt//m2qv/3MaF/826
+        fP+HfVX/h31V/4Z8Vf+LgVX/opRi/6eZZP+mmGT/pphk/6aYZP+nmWX/pJVg/6+kd//5+vj//P37////
+        ///l49b/opRf/6eZZf+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/p5lm/6GT
+        XP+7sI3///////r8+f//////wrqX/6OSXP+jlWD/4+HU////////////taqE/8W/n////////P77//f4
+        9v+toXT/o5Rd/62fcf/29vH//f/+//7///+4sIr/opNc/6eZZv+mmGT/pphk/6aYZP+nmWX/pJZi/7Wl
+        b//q4Lb/5tmr/9zGhf/Nunz/h31V/4d9Vf+HfFX/i4FV/6KUYv+nmWP/pphk/6aYZP+mmGT/pphl/6WX
+        Yv+pm2z/8vPt//7//v/+////7+/m/6aaZP+ml2X/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aY
+        ZP+mmGT/pphk/6eaZv+gkFr/0Mmw///////7/fr/+vv5/7Gjev+ll2H/opFa/87Jsf///////////8rD
+        qv/b1sT////////////o5dv/o5Rh/6eaZf+llWH/5+Xc////////////0cq0/6GQWv+ommb/pphk/6aY
+        ZP+mmGT/p5ll/6SWYv+1pW//6uC2/+baq//cxoX/zbp8/4d9Vf+HfVX/hnxV/4uBVf+ilGL/p5lk/6aY
+        ZP+mmGT/pphk/6aYZP+nmWX/o5Vh/+jl2f//////+/37//v9+/+xpXv/o5Rg/6aZZf+mmGT/pphk/6aY
+        ZP+mmGT/ppll/6eaZv+mmGT/pphk/6aYZP+nmWX/opRg/+bk2P///////v///+3s4v+llmT/qJlm/6OS
+        XP++s5H////////////m5dr/7u7m//7/////////0822/6CQWv+pm2n/oJBa/9PPuP///////////+Tj
+        1/+jk1//qJll/6aYZP+mmGT/pphk/6eZZf+klmL/taVv/+rgtv/m2qv/3MaF/827fP+HfVX/h31V/4d8
+        Vf+LgVX/opRi/6eZY/+mmGT/pphk/6aYZP+mmGT/p5pn/6CRWf/RyrT///////n79///////0cuz/56O
+        WP+pm2j/p5ll/6aZZf+nmWX/p5pn/6SWXv+hkVv/pphj/6aYZf+mmWT/pJZg/6ygcf/29/P//P78////
+        ///a1sT/oJFb/6iaZ/+llmH/rZ9z//b38//9//7/+/z7//z9/P/7/fv//////760kP+ikV3/qJto/6GR
+        W//AuZf///////z+/f/19/L/q59y/6WWYP+mmWX/pphk/6aYZP+nmWX/pJZi/7Wmb//q4Lb/5tqr/9zG
+        hf/Nu3z/h31V/4d9Vf+GfFX/i4FV/6KUYv+nmWT/pphk/6aYZP+mmGT/pphk/6eZZf+klV7/sqd7//r7
+        +v/8/vv//P79//n6+f+2rIT/nY5V/6SVYP+klmD/opRd/56PV/+zp37/0s62/6iaZ/+nl2P/p5pm/6GS
+        W/++s5L///////r7+f//////xr6e/6CRWv+nmmb/pplk/6SVYf/q59z///////v9+v/8/fv//f/+//f4
+        9f+toXL/pJZh/6eaZv+klF//saZ7//r8+//8/vv//////761kv+hklz/p5lm/6aYZP+mmGT/p5hl/6SW
+        Yv+1pm//6uC2/+baq//cxoX/zbp8/4d9Vf+HfVX/hnxV/4uBVf+ilGL/p5lj/6aYZP+mmGT/pphk/6aY
+        ZP+mmGT/p5lm/6GRW//V0b3///////n7+P/+//7/9/f0/8rEqv+xp3v/rqJ3/7erhP/SzbX/+Pf2//v8
+        +v+tonP/pZVg/6iaaP+hkFn/08+6///////7/fn//P7+/7apgf+jlV7/p5lm/6iaZv+gkFv/1c+5////
+        ///7/Pr/+/36///////n5tv/oZVh/6iYZf+mmGX/p5hi/6eXaf/v7ef//v/+///////RzrX/n5Ba/6iZ
+        Zv+mmGT/pphk/6eYZf+klmL/taVv/+rgt//m2qv/3MaF/826fP+HfVX/h31V/4d8Vf+LgVX/opRi/6eZ
+        ZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZv+ml2P/qJlo/+fk2f//////+vz5//z9+///////+/36//j6
+        9v/9/v3///////7//v/4+fb/q6Fy/6WWYf+nmWb/o5Ri/+fm2f///////f/9/+/w5/+mmmj/ppdj/6aY
+        ZP+nmmb/oJFc/8G3lv//////+vz4//r7+P//////0823/6GQWv+omWf/pphk/6iZZ/+ikFz/3djG////
+        ///+////6Ofb/6OVYP+nmWT/pphk/6aYZP+nmWX/pJZi/7Wlb//q4Lb/5tqr/9zGhf/Nunz/h31V/4d9
+        Vf+GfFX/i4FV/6KUYv+nmWP/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/p5ll/6WVYf+nmmr/393N////
+        /////////v////7////+/////v/////+/v//////2NTC/6OVYP+nmWb/pJVf/7Clev/8/Pz//v7+////
+        ///f3c7/oJNc/6iZZv+mmGT/pphl/6WVX/+vpHr/+/z7///////+/v3//////721j/+iklz/p5lm/6aY
+        ZP+nmmf/oJFZ/8vEpv////////7+//z8+/+wpHj/pJVf/6aZZf+mmGT/p5hl/6SWYv+1pm//6uC2/+ba
+        q//cxoX/zbt8/4d9Vf+HfVX/hnxV/4uBVf+ilGL/p5lk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aY
+        ZP+nmWX/pJdi/6GSX/+8soz/3djH/+/u5v/29vP/+Pn1//Ly6v/h387/vreW/6OVYf+nl2P/p5ll/6SV
+        Yf+toXX/4uDR/+jn2v/r6d//wLeW/6KTXf+nmWb/pphk/6aYZP+mmGX/pJVl/9PNtv/p6N3/6efb/9zZ
+        x/+om2v/pZdi/6aYZf+mmGT/p5ll/6SVYP+xpXr/5eLV/+nn3P/k4dT/rqJ2/6SWYP+mmGX/pphk/6eZ
+        Zf+klmL/taVv/+rgtv/m2qv/3MaF/827fP+HfVX/h31V/4d8Vf+LgVX/opRi/6eZY/+mmGT/pphk/6aY
+        ZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZf+nmWb/opJc/6GSXP+mmGf/raBx/66hc/+om2r/oZJd/6GS
+        Wv+nmWT/pphl/6aYZP+mmGX/pJZh/6GSXv+jlWH/opNg/6SVYP+nmWX/pphk/6aYZP+mmGT/pZhl/6aY
+        ZP+ikl3/o5Rg/6KVYP+hkl3/pZdi/6aYZP+mmGT/pphk/6aYZP+mmWX/pZZh/6KSXv+jlGL/opNf/6WW
+        Yf+mmGX/pphk/6aYZP+nmGX/pJZi/7Wlb//q4Lb/5tqr/9zGhf/Nunz/h31V/4d9Vf+GfFX/i4FV/6KU
+        Yv+nmWT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6eZZv+nmWb/pphj/6SW
+        Yf+klmD/pZdi/6eZZv+nmWb/pphk/6aYZP+mmGT/pphk/6eYZP+nmWX/p5ll/6eZZf+mmWX/pphk/6aY
+        ZP+mmGT/pphk/6aYZP+mmGT/p5lm/6eZZf+nmWX/p5lm/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aZ
+        Zf+nmWX/p5ll/6eZZf+mmGX/pphk/6aYZP+mmGT/pplk/6SWYv+1pW//6uC2/+baq//cxoX/zbp8/4d9
+        Vf+HfVX/h3xV/4uBVf+ilGL/p5lj/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aY
+        ZP+mmGT/pphk/6aYZP+mmWX/p5ll/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aY
+        ZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aY
+        ZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aZZf+klmL/taZv/+rg
+        tv/m2av/3MaF/8y6ff+IfVX/h31V/4d8Vf+LgVb/opRi/6eZY/+mmGT/pphk/6aYZP+mmGT/pphk/6aY
+        ZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aY
+        ZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aY
+        ZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aY
+        ZP+nmGX/pJZi/7Wlbv/q37f/59qs/9vGhf/Nunz/h31U/4d9VP+GfFX/in9X/6CTYv+pmWT/pphk/6aY
+        ZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aY
+        ZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aY
+        ZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aYZP+mmGT/pphk/6aY
+        ZP+mmGT/pphk/6aYZP+mmGT/p5lk/6WWYf+4pm7/6t6w/+XWov/YxYH/zLh7/5CIZv2Ge1H9hn1W/Yh+
+        Vf2Yil39p5dm/aeZZf2nmWX9p5ll/aeZZf2nmmX9p5ll/aeZZf2nmWX9p5ll/aeZZf2nmWX9p5ll/aeZ
+        Zf2nmWX9p5ll/aeZZf2nmWX/p5ll/6eZZf+nmWX/p5ll/6eZZf+nmWX/p5ll/6eZZf+nmWX/p5ll/6eZ
+        Zf+nmWX/p5ll/6eZZf+nmWX/p5ll/6eZZf+nmWX/p5ll/6eZZf+nmWX/p5ll/6eZZf+nmWX/p5ll/6eZ
+        Zf+nmWX/p5ll/6eZZf+nmWX/p5ll/6eZZf+nmWX/p5pl/6iZZf+rmmb/v651/9vIi//XwoP/z7x6/8Gx
+        e/+1sZr/f3ZK/4mAWf+HfFT/j4FW/5qNXf+ik2L/opRj/6KUY/+ilGP/opRj/6KUY/+ilGP/opRj/6KU
+        Y/+ilGP/opRj/6KUY/+ilGP/opRj/6KUY/+ilGP/opRj/6KUY/+ilGP/opRj/6KUY/+ilGP/opRj/6KU
+        Y/+ilGP/opRj/6KUY/+ilGP/opRj/6KUY/+ilGP/opRj/6KUY/+ilGP/opRj/6KUY/+ilGP/opRj/6KU
+        Y/+ilGP/opRj/6KUY/+ilGP/opRj/6KUY/+ilGP/opRj/6KUY/+ilGP/opRj/6KUY/+jk2L/qZhm/7Sl
+        bf+8rHD/wrF1/7mpa//FvZn/7u/rRY2GYkWDeExFiX9YRYp8VUWQgldFlohbRZeIW0WXiFtFlohbRZeI
+        W0WWiFtFl4hbRZeIW0WXiFtFlohbRZeIW0WXiFtFlohbRZaIW0WXiFtGlohbQJaIWyqXiFsqlohbKpaI
+        WyqXiFsqlohbKpaIWyqXiFsqlohbKpaIWyqXiFsqlohbKpaIWyqXiFsqlohbKpaIWyqXiFsqlohbKpeI
+        WyqXiFsqlohbKpeIWyqXiFsqlohbKpeIWyqXiFsqlohbKpeIWyqXiFsqlohbKpeIWyqWiFsql4hbKpeI
+        WyqWiFsqlohbKpuNXiqil2IqrKBqKq6eZyqqnm0q6+vgKv///wDf3dMAioFbAIN2TQCIfVUAiH5WAIqA
+        WACLgFgAj4FWAI+AVgCPgVYAj4BWAI+BVgCPgFYAj4FWAI+BVgCPgFYAj4BWAI+BVgCPgFYAj4BWAI+B
+        VgCPgFYAj4BWAI+BVgCPgFYAj4FWAI+BVgCPgFYAj4FWAI+BVgCPgFYAj4FWAI+AVgCPgFYAj4FWAI+A
+        VgCPgFYAj4FWAI+AVgCPgVYAj4FWAI+AVgCPgVYAj4FWAI+AVgCPgVYAj4FWAI+AVgCPgFYAj4FWAI+A
+        VgCPgVYAj4BWAJCBVgCOgVcAioFZAIyBVgCShVgAmItdAJiLWQCekGQA3drNAP///wD6/PoD////A+bm
+        3wOinH8Dhn1UA4d9VQOHfVUDh31VA4p8VgOKfFYDinxWA4t8VgOLfFYDi3xWA4t8VgOLfFYDi3xWA4t8
+        VgOLfFYDi3xWA4t8VgOLfFYDi3xWAot8VgKLfFYCi3xWAot8VgKLfFYCi3xWAot8VgKLfFYCi3xWAot8
+        VgKLfFYCi3xWAot8VgKLfFYCi3xWAot8VgKLfFYCi3xWAot8VgKLfFYCi3xWAot8VgKLfFYCi3xWAot8
+        VgKLfFYCi3xWAot8VgKLfFYCi3xWAot8VgKLfFYCiXxVAoZ9VQKJfVQCjX5WAoyBVwKim3wC4+HWAv//
+        /wL6/PoCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog1.Name" xml:space="preserve">
+    <value>openFileDialog1</value>
+  </data>
+  <data name="label_CopyRight.Text" xml:space="preserve">
+    <value>Alex, R5AM, Moscow, 2015</value>
+  </data>
+  <data name="label_StartPause.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 25</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>727, 415</value>
+  </data>
+  <data name="&gt;&gt;button_OpenFile.Name" xml:space="preserve">
+    <value>button_OpenFile</value>
+  </data>
+  <data name="groupBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 82</value>
+  </data>
+  <data name="button_OpenFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 52</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label_Tone.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;button_Config.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label_Pause.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="button_About.Location" type="System.Drawing.Point, System.Drawing">
+    <value>601, 7</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="button_Exit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>356, 7</value>
+  </data>
+  <data name="&gt;&gt;checkBox_StartPause.Parent" xml:space="preserve">
+    <value>groupBox_StartPause</value>
+  </data>
+  <data name="button_About.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12.75pt</value>
+  </data>
+  <data name="&gt;&gt;label_Tone.Name" xml:space="preserve">
+    <value>label_Tone</value>
+  </data>
+  <data name="&gt;&gt;label_OutText.Name" xml:space="preserve">
+    <value>label_OutText</value>
+  </data>
+  <data name="checkBox_infinity.Text" xml:space="preserve">
+    <value>Пауза при старте</value>
+  </data>
+  <data name="&gt;&gt;button_OpenFile.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>CW WIN</value>
+  </data>
+  <data name="label_Show_Tone.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Tone.Name" xml:space="preserve">
+    <value>trackBar_Tone</value>
+  </data>
+  <data name="&gt;&gt;label_Show_Pause.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label_CopyRight.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox_StartPause.Name" xml:space="preserve">
+    <value>groupBox_StartPause</value>
+  </data>
+  <data name="trackBar_Pause.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="button_Config.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="button_Exit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 20.75pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Tone.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="button_About.Text" xml:space="preserve">
+    <value>О программе</value>
+  </data>
+  <data name="&gt;&gt;label_OutText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label_CopyRight.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="checkBox_StartPause.Text" xml:space="preserve">
+    <value>Пауза при старте</value>
+  </data>
+  <data name="&gt;&gt;button_About.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="button_Help.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12.75pt</value>
+  </data>
+  <data name="label_Show_Tone.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;groupBox5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label_Show_Speed.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="button_ToMp3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>243, 7</value>
+  </data>
+  <data name="button_SafeFile.Text" xml:space="preserve">
+    <value>Записать TXT файл</value>
+  </data>
+  <data name="&gt;&gt;button_Config.Name" xml:space="preserve">
+    <value>button_Config</value>
+  </data>
+  <data name="label_Pause.Text" xml:space="preserve">
+    <value>Интервал</value>
+  </data>
+  <data name="&gt;&gt;saveFileDialog1.Name" xml:space="preserve">
+    <value>saveFileDialog1</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Speed.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="label_StartPause.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;button_Exit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox5.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;button_Help.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_SafeFile.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;button_Config.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox_StartPause.Location" type="System.Drawing.Point, System.Drawing">
+    <value>470, 320</value>
+  </data>
+  <data name="label_Show_Pause.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 10</value>
+  </data>
+  <data name="&gt;&gt;checkBox_StartPause.Name" xml:space="preserve">
+    <value>checkBox_StartPause</value>
+  </data>
+  <data name="label_OutText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 155</value>
+  </data>
+  <data name="&gt;&gt;label_CopyRight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label_Tone.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12.25pt</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Tone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label_Pause.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;groupBox_regul.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="button_OpenFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 7</value>
+  </data>
+  <data name="&gt;&gt;button_ToMp3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="saveFileDialog1.Filter" xml:space="preserve">
+    <value>Text files|*.txt</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="groupBox_regul.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 56</value>
+  </data>
+  <data name="button_Config.Text" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="&gt;&gt;groupBox_StartPause.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 321</value>
+  </data>
+  <data name="&gt;&gt;trackBar_N.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox_StartPause.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Tone.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="button_Help.Text" xml:space="preserve">
+    <value>Помощь</value>
+  </data>
+  <data name="label_CopyRight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 20</value>
+  </data>
+  <data name="&gt;&gt;label_Pause.Name" xml:space="preserve">
+    <value>label_Pause</value>
+  </data>
+  <data name="&gt;&gt;label_Show_Pause.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="label_Speed.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;label_Pause.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="checkBox_infinity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 31</value>
+  </data>
+  <data name="&gt;&gt;checkBox_infinity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label_Speed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 21</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_Tone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Speed.Name" xml:space="preserve">
+    <value>trackBar_Speed</value>
+  </data>
+  <data name="&gt;&gt;button_StartStop.Name" xml:space="preserve">
+    <value>button_StartStop</value>
+  </data>
+  <data name="&gt;&gt;button_ToMp3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;saveFileDialog1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label_Speed.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_Pause.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 14</value>
+  </data>
+  <data name="checkBox_infinity.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Pause.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Cw_winForm</value>
+  </data>
+  <data name="&gt;&gt;label_Show_Speed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label_Show_N.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="button_OpenFile.Text" xml:space="preserve">
+    <value>Выбрать файл слов</value>
+  </data>
+  <data name="groupBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>532, 7</value>
+  </data>
+  <data name="&gt;&gt;label_Speed.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="groupBox_regul.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;button_Help.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Name" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;button_OpenFile.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="button_StartStop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>225, 326</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Parent" xml:space="preserve">
+    <value>groupBox_regul</value>
+  </data>
+  <data name="groupBox5.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="button_Exit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 55</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label_OutText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Courier New, 9pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Name" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="button_ToMp3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12.75pt</value>
+  </data>
+  <data name="&gt;&gt;groupBox_StartPause.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label_Show_Speed.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt, style=Bold</value>
+  </data>
+  <data name="button_Exit.Text" xml:space="preserve">
+    <value>Выход</value>
+  </data>
+  <data name="openFileDialog1.Filter" xml:space="preserve">
+    <value>Text files|*.txt|All files|*.*</value>
+  </data>
+  <data name="&gt;&gt;label_Pause.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="groupBox5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 38</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Pause.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="label_N.Text" xml:space="preserve">
+    <value>Слов</value>
+  </data>
+  <data name="trackBar_Speed.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="button_StartStop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 55</value>
+  </data>
+  <data name="button_OpenFile.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12.75pt</value>
+  </data>
+  <data name="button_SafeFile.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="label_Show_Pause.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="button_Help.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="groupBox_StartPause.Size" type="System.Drawing.Size, System.Drawing">
+    <value>243, 61</value>
+  </data>
+  <data name="&gt;&gt;button_Help.Name" xml:space="preserve">
+    <value>button_Help</value>
+  </data>
+  <data name="checkBox_infinity.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="label_Show_N.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label_Show_N.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt, style=Bold</value>
+  </data>
+  <data name="label_Show_N.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 10</value>
+  </data>
+  <data name="label_Show_N.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_OpenFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;folderBrowserDialog1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button_Help.Location" type="System.Drawing.Point, System.Drawing">
+    <value>482, 7</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label_Show_Tone.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;checkBox_infinity.Parent" xml:space="preserve">
+    <value>groupBox_StartPause</value>
+  </data>
+  <data name="&gt;&gt;label_CopyRight.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="checkBox_StartPause.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 29</value>
+  </data>
+  <data name="&gt;&gt;button_About.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="button_Help.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 52</value>
+  </data>
+  <data name="&gt;&gt;folderBrowserDialog1.Name" xml:space="preserve">
+    <value>folderBrowserDialog1</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 63</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Parent" xml:space="preserve">
+    <value>groupBox_regul</value>
+  </data>
+  <data name="label_Speed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;button_Help.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="checkBox_StartPause.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;button_ToMp3.Name" xml:space="preserve">
+    <value>button_ToMp3</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label_CopyRight.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;label_Speed.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label_Show_N.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 25</value>
+  </data>
+  <data name="&gt;&gt;label_FileName.Name" xml:space="preserve">
+    <value>label_FileName</value>
+  </data>
+  <data name="trackBar_N.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 36</value>
+  </data>
+  <data name="&gt;&gt;label_N.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="button_Config.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12.75pt</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Pause.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label_Tone.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;trackBar_N.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="label_Speed.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12.25pt</value>
+  </data>
+  <data name="&gt;&gt;button_StartStop.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_OutText.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="label_CopyRight.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;groupBox_regul.Name" xml:space="preserve">
+    <value>groupBox_regul</value>
+  </data>
+  <data name="button_StartStop.Text" xml:space="preserve">
+    <value>Старт</value>
+  </data>
+  <data name="label_Tone.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;button_About.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="trackBar_Tone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 42</value>
+  </data>
+  <data name="&gt;&gt;label_Tone.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label_N.Name" xml:space="preserve">
+    <value>label_N</value>
+  </data>
+  <data name="label_StartPause.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="label_FileName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 28</value>
+  </data>
+  <data name="&gt;&gt;label_Pause.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_N.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button_ToMp3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 52</value>
+  </data>
+  <data name="groupBox_regul.Size" type="System.Drawing.Size, System.Drawing">
+    <value>711, 96</value>
+  </data>
+  <data name="trackBar_N.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;label_StartPause.Name" xml:space="preserve">
+    <value>label_StartPause</value>
+  </data>
+  <data name="&gt;&gt;label_Show_Pause.Name" xml:space="preserve">
+    <value>label_Show_Pause</value>
+  </data>
+  <data name="&gt;&gt;button_Exit.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;label_Show_N.Name" xml:space="preserve">
+    <value>label_Show_N</value>
+  </data>
+  <data name="label_Show_Speed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 10</value>
+  </data>
+  <data name="label_Show_Tone.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="checkBox_infinity.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Speed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_Show_Tone.Name" xml:space="preserve">
+    <value>label_Show_Tone</value>
+  </data>
+  <data name="trackBar_Pause.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 38</value>
+  </data>
+  <data name="button_Config.Location" type="System.Drawing.Point, System.Drawing">
+    <value>362, 7</value>
+  </data>
+  <data name="&gt;&gt;button_Exit.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;button_StartStop.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="button_Exit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>349, 326</value>
+  </data>
+  <data name="label_Show_Speed.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="button_OpenFile.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="label_Tone.Text" xml:space="preserve">
+    <value>Тон</value>
+  </data>
+  <data name="&gt;&gt;checkBox_StartPause.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label_OutText.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="checkBox_StartPause.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 7</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 82</value>
+  </data>
+  <data name="button_StartStop.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 20.75pt, style=Bold</value>
+  </data>
+  <data name="label_OutText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>711, 165</value>
+  </data>
+  <data name="&gt;&gt;button_Config.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="button_Config.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 52</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Pause.Name" xml:space="preserve">
+    <value>trackBar_Pause</value>
+  </data>
+  <data name="&gt;&gt;label_Show_N.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;button_SafeFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_FileName.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;button_StartStop.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label_Show_Pause.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button_StartStop.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label_Show_Tone.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="checkBox_StartPause.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt, style=Bold</value>
+  </data>
+  <data name="label_Show_Pause.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt, style=Bold</value>
+  </data>
+  <data name="label_N.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 21</value>
+  </data>
+  <data name="button_Exit.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="trackBar_Pause.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 42</value>
+  </data>
+  <data name="label_CopyRight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 364</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label_Show_Pause.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 25</value>
+  </data>
+  <data name="button_SafeFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 7</value>
+  </data>
+  <data name="&gt;&gt;groupBox_regul.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_Show_Speed.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label_Pause.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12.25pt</value>
+  </data>
+  <data name="openFileDialog1.Title" xml:space="preserve">
+    <value>Открытие файла с CW-словами</value>
+  </data>
+  <data name="label_FileName.Text" xml:space="preserve">
+    <value>Файл не выбран</value>
+  </data>
+  <data name="&gt;&gt;label_Show_Speed.Name" xml:space="preserve">
+    <value>label_Show_Speed</value>
+  </data>
+  <data name="label_CopyRight.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label_CopyRight.Name" xml:space="preserve">
+    <value>label_CopyRight</value>
+  </data>
+  <data name="label_Show_Speed.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="trackBar_Tone.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="label_FileName.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label_OutText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_StartPause.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label_Tone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 21</value>
+  </data>
+  <data name="label_Show_Pause.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="button_About.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 52</value>
+  </data>
+  <data name="checkBox_infinity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 29</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="&gt;&gt;label_StartPause.Parent" xml:space="preserve">
+    <value>groupBox_StartPause</value>
+  </data>
+  <data name="groupBox_StartPause.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="label_StartPause.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>719, 388</value>
+  </data>
+  <data name="button_StartStop.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label_N.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label_FileName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label_N.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="label_N.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12.25pt</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 82</value>
+  </data>
+  <data name="trackBar_Tone.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 37</value>
+  </data>
+  <data name="&gt;&gt;label_FileName.Parent" xml:space="preserve">
+    <value>groupBox5</value>
+  </data>
+  <data name="trackBar_Speed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 42</value>
+  </data>
+  <data name="button_About.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;trackBar_N.Name" xml:space="preserve">
+    <value>trackBar_N</value>
+  </data>
+  <data name="button_SafeFile.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12.75pt</value>
+  </data>
+  <data name="&gt;&gt;checkBox_infinity.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="button_SafeFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 52</value>
+  </data>
+  <data name="label_Speed.Text" xml:space="preserve">
+    <value>Скорость</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox5.Name" xml:space="preserve">
+    <value>groupBox5</value>
+  </data>
+  <data name="label_FileName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;button_Exit.Name" xml:space="preserve">
+    <value>button_Exit</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Speed.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;button_About.Name" xml:space="preserve">
+    <value>button_About</value>
+  </data>
+  <data name="&gt;&gt;label_Show_N.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkBox_StartPause.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_N.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;button_SafeFile.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label_StartPause.Location" type="System.Drawing.Point, System.Drawing">
+    <value>188, 11</value>
+  </data>
+  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="checkBox_infinity.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt, style=Bold</value>
+  </data>
+  <data name="groupBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
+    <value>groupBox_regul</value>
+  </data>
+  <data name="&gt;&gt;label_Speed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label_Tone.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 13</value>
+  </data>
+  <data name="&gt;&gt;button_ToMp3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="saveFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>232, 17</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>25</value>
+  </metadata>
+  <metadata name="openFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="folderBrowserDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>447, 17</value>
+  </metadata>
+</root>

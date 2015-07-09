@@ -1,0 +1,10 @@
+# all files in folder ./bin
+**/bin/*
+
+# all files in folder ./obj
+**/obj/*
+
+todo.txt
+*.exe
+*.zip
+
