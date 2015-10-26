@@ -40,6 +40,7 @@ namespace cw_win_4
         public static bool english_flag = false;                // Признак английского интерфейса
         bool working_flag = false;                              // Признак работы режима воспроизведения
         public static bool exist_ini_file = false;              // Признак существования INI-файла
+        public static bool non_random_flag = false;             // Признак отмены случайного выбора слов
 
         public Cw_winForm()
         {
@@ -65,22 +66,26 @@ namespace cw_win_4
             LabelAndTrackbarShow();
         }
 
+        // Выход из программы по кнопке "Exit"
         private void button_Exit_Click(object sender, EventArgs e)
         {
             Environment.Exit(0);
         }
 
+        // Покажем форму "О программе" по кнопке "About"
         private void button_About_Click(object sender, EventArgs e)
         {
             AboutForm form_about = new AboutForm();
             form_about.ShowDialog();
         }
 
+        // Вызов Win-Help по кнопке "Help"
         private void button_Help_Click(object sender, EventArgs e)
         {
             Help.ShowHelp(this, fileNameHlp, HelpNavigator.TableOfContents);
         }
 
+        // Открываем файл со словами
         private void button_OpenFile_Click(object sender, EventArgs e)
         {
             DialogFileOpen();
@@ -92,7 +97,7 @@ namespace cw_win_4
         /// </summary>
         private void DialogFileOpen()
         {
-            openFileDialog1.Multiselect = false;    // Несколько файлов не выбирать
+            openFileDialog1.Multiselect = false;    // Несколько файлов в окне не выбирать
 
             if (openFileDialog1.ShowDialog() ==
                 System.Windows.Forms.DialogResult.OK &&
@@ -112,6 +117,7 @@ namespace cw_win_4
             }
         }
 
+        // Обработка кнопки "Start/Stop"
         private void button_StartStop_Click(object sender, EventArgs e)
         {
             if (!working_flag)
@@ -127,9 +133,9 @@ namespace cw_win_4
              }
         }
 
+        // Процесс воспроизведения 
         private void StartPlay()
         {
-
             // Если INI-файл существует, то читаем из него параметры
             if (exist_ini_file)
             {
@@ -214,18 +220,17 @@ namespace cw_win_4
              else 
                  numberofwords = trackBar_N.Value;
             
-            interval = trackBar_Pause.Value;
-            speed = trackBar_Speed.Value;
-            tone = trackBar_Tone.Value;
+             interval = trackBar_Pause.Value;
+             speed = trackBar_Speed.Value;
+             tone = trackBar_Tone.Value;
 
 
             // Инициализация звуковой карты (NAudio library)
-            WaveOut MyWaveOut;
-            MyWaveOut = new WaveOut();
+            WaveOut MyWaveOut = new WaveOut();
             var sineWaveProvider = new SineWaveProvider32();
             sineWaveProvider.SetWaveFormat(16000, 1); // 16кГц, моно
-            sineWaveProvider.Frequency = tone;
-            sineWaveProvider.Amplitude = 0.25f;
+            sineWaveProvider.Frequency = tone;          // Тон посылки
+            sineWaveProvider.Amplitude = 0.5f;          // Амплитуда посылки
             MyWaveOut.Init(sineWaveProvider);
 
             // Воспроизведение слова
@@ -241,21 +246,44 @@ namespace cw_win_4
             }
 
             // Выводим случайные слова из массива
+            
             Random rnd = new Random();
+                       
+            if(non_random_flag)
+            {
+                numberofwords = AllWords.Length;        // При отмене случайного выбора слов выводим все слова
+            }                                           // один раз
+              
 
             for (int i = 1; i <= numberofwords; i++)
             {
+             int num;
 
              // Обрабатываем кнопку "СТОП"
              Application.DoEvents();
              if (!working_flag) 
                  break;          //останавливаем воспроизведение слов
 
-             int num = rnd.Next(0, AllWords.Length);	// Номер случайного слова
+             if (!non_random_flag)
+             {
+                 num = rnd.Next(0, AllWords.Length);	// Номер случайного слова
+             }
+             else
+             {
+                 num = i-1;    
+             }
+
+            
              string word = AllWords[num].ToUpper();     // Получаем случайное слово в верхнем 
                                                         // регистре
              for (int j = 0; j < word.Length; j++)      // Перебираем буквы в слове
              {
+
+                 // Обрабатываем кнопку "СТОП"
+                 Application.DoEvents();
+                 if (!working_flag)
+                     break;          //останавливаем воспроизведение
+                 
                 // Воспроизводим букву
                 char symbol = word[j];
 
@@ -783,24 +811,17 @@ namespace cw_win_4
                      }
 
              } // End For j
-            
 
-             // Вывод на экран
-             // Эмулируем "\t" при выводе на label
-             label_OutText.Text += word;
-             label_OutText.Update();
-             
-             string print_buffer = "";
-             if (Convert.ToBoolean(i % 10))			    // Разбиваем вывод слов на 10 столбцов
-              {
-                int addition = 10 - word.Length;         // Добиваем пробелами до 10 символов
-                for (int k = 1; k <= addition; k++) 
-                    print_buffer += " ";
-                label_OutText.Text += print_buffer;
-              }
+             if (non_random_flag)
+             {
+                 screen_Out(word);     // вывод на label непрерывно
+             }
              else
-                label_OutText.Text += "\n";
+             {
+                 screen_Out_By_10(i, word);     // вывод на label по 10 слов
+             }
 
+           
              Thread.Sleep(interval * dash);                // Пауза между словами
 
             } // End for(i)
@@ -809,6 +830,44 @@ namespace cw_win_4
             MyWaveOut.Dispose();
             MyWaveOut = null;
         }
+
+
+        /* Вывод на экран
+         * Эмулируем "\t" при выводе на label
+         * Разбиваем на 10 столбцов
+         */
+        private void screen_Out_By_10(int i, string word)
+        {
+            string print_buffer = "";
+
+            label_OutText.Text += word;
+            label_OutText.Update();
+            
+            if (Convert.ToBoolean(i % 10))			    // Разбиваем вывод слов на 10 столбцов
+            {
+                int addition = 10 - word.Length;        // Добиваем пробелами до 10 символов
+                for (int k = 1; k <= addition; k++)
+                    print_buffer += " ";
+                label_OutText.Text += print_buffer;
+            }
+            else
+                label_OutText.Text += "\n";
+        }
+
+
+        /* Вывод на экран смыслового текста без случайных слов
+         * 
+         */
+        private void screen_Out(string word)
+        {
+            string print_buffer = "";
+
+            label_OutText.Text += word;
+            label_OutText.Update();
+            print_buffer += " ";
+            label_OutText.Text += print_buffer;
+        }
+
 
         private void trackBar_Tone_Scroll(object sender, EventArgs e)
         {
@@ -909,6 +968,7 @@ namespace cw_win_4
 
         }
 
+        // Вывод формы настроек по кнопке "Config" 
         private void button_Config_Click(object sender, EventArgs e)
         {
             ConfigForm form_config = new ConfigForm();
@@ -968,6 +1028,14 @@ namespace cw_win_4
                 {
                     if (cw_win_ini_file.GetSetting("CW_WIN", "ALTERNATIVEMP3").ToUpper() == "NO")
                         alternative_mp3_flag = false;
+                }
+
+                if (cw_win_ini_file.GetSetting("CW_WIN", "NONRANDOM").ToUpper() == "YES")
+                    non_random_flag = true;
+                else
+                {
+                    if (cw_win_ini_file.GetSetting("CW_WIN", "NONRANDOM").ToUpper() == "NO")
+                        non_random_flag = false;
                 }
 
 
@@ -1103,7 +1171,7 @@ namespace cw_win_4
             // Выбираем папку для звуковых файлов
             
             string fileName = GetAudioFolderName();
-            string fileNameOld = fileName;      // Сохраним для переноса файлов из коня (в WinXP)
+            string fileNameOld = fileName;      // Сохраним для переноса файлов из корня (в WinXP)
             
 
             if (fileName == "cancel")   // Если папка не выбрана, то выходим
@@ -1142,9 +1210,25 @@ namespace cw_win_4
 
                 // Выводим случайные слова из массива
                 Random rnd = new Random();
+
+                if (non_random_flag)
+                {
+                    numberofwords = AllWords.Length;        // При отмене случайного выбора слов выводим все слова
+                }                                           // один раз
+
                 for (int i = 1; i <= numberofwords; i++)
                 {
-                    int num = rnd.Next(0, AllWords.Length);     // Номер случайного слова
+                    int num;
+
+                    if (!non_random_flag)
+                    {
+                        num = rnd.Next(0, AllWords.Length);     // Номер случайного слова
+                    }
+                    else
+                    {
+                        num = i - 1;
+                    }
+
                     string word = AllWords[num].ToUpper();      // Получаем случайное слово в верхнем 
                     // регистре
                     for (int j = 0; j < word.Length; j++)       // Перебираем буквы в слове
@@ -1675,22 +1759,17 @@ namespace cw_win_4
                         }
 
                     } // End For j
-
-                    // Вывод на экран
-                    // Эмулируем "\t" при выводе на label
-                    label_OutText.Text += word;
-                    label_OutText.Update();
-
-                    string print_buffer = "";
-                    if (Convert.ToBoolean(i % 10))			    // Разбиваем вывод слов на 10 столбцов
+  
+                    
+                    if (non_random_flag)
                     {
-                        int addition = 10 - word.Length;         // Добиваем пробелами до 10 символов
-                        for (int k = 1; k <= addition; k++)
-                            print_buffer += " ";
-                        label_OutText.Text += print_buffer;
+                        screen_Out(word);     // вывод на label непрерывно
                     }
                     else
-                        label_OutText.Text += "\n";
+                    {
+                        screen_Out_By_10(i, word);     // вывод на label по 10 слов
+                    }
+                    
 
                     WavPause(writer, interval * dash);                // Пауза между словами
 
@@ -1793,7 +1872,6 @@ namespace cw_win_4
 
             // Существует ли файл LAME.EXE?
             FileInfo file = new FileInfo(Path.Combine(current_app_path, lame_file_name));
-
             if (!file.Exists)
             {
                 if (english_flag)
@@ -1816,7 +1894,7 @@ namespace cw_win_4
                 pr.StartInfo.Arguments = "-m m -V6 --ta R5AM --tt R5AM --silent " +
                                          filename + ".wav " +
                                          filename + ".mp3";
-                // В спрятанном виде сонсольное прилоение запустить
+                // В спрятанном виде консольное прилоение запустить
                 pr.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
 
                 pr.Start();
@@ -1871,4 +1949,3 @@ namespace cw_win_4
         }
    }
 }
-

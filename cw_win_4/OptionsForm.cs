@@ -27,8 +27,10 @@ namespace cw_win_4
             
             // Заполняем текстбоксы значениями параметров из главной формы
             checkBox_Config_RusPunktuation.Checked = Cw_winForm.russianpunktuation_flag;
-            checkBox_Config_mp3.Checked = Cw_winForm.alternative_mp3_flag;
             checkBox_Config_EngInterface.Checked = Cw_winForm.english_flag;
+            checkBox_Config_mp3.Checked = Cw_winForm.alternative_mp3_flag;
+            checkBox_Config_non_random.Checked = Cw_winForm.non_random_flag;
+
             textBox_Config_StartPause.Text = Cw_winForm.startpause.ToString();
             textBox_Config_Calibr.Text = Cw_winForm.speed_calibr.ToString();
 
@@ -87,7 +89,19 @@ namespace cw_win_4
                  Cw_winForm.russianpunktuation_flag = false;
              }
 
-                // Использовать альтернативные пути для звуковых файлов
+             // Использовать английский интерфейс
+             if (checkBox_Config_EngInterface.Checked)
+             {
+                 cw_win_ini_file.AddSetting("CW_WIN", "ENGLISH", "YES");
+                 Cw_winForm.english_flag = true;
+             }
+             else
+             {
+                 cw_win_ini_file.AddSetting("CW_WIN", "ENGLISH", "NO");
+                 Cw_winForm.english_flag = false;
+             }
+
+             // Использовать альтернативные пути для звуковых файлов
              if (checkBox_Config_mp3.Checked)
              {
                  cw_win_ini_file.AddSetting("CW_WIN", "ALTERNATIVEMP3", "YES");
@@ -99,17 +113,18 @@ namespace cw_win_4
                  Cw_winForm.alternative_mp3_flag = false;
              }
             
-               // Использовать английский интерфейс
-             if (checkBox_Config_EngInterface.Checked)
+             // Отключить случайный вывод слов
+             if (checkBox_Config_non_random.Checked)
              {
-                 cw_win_ini_file.AddSetting("CW_WIN", "ENGLISH", "YES");
-                 Cw_winForm.english_flag = true;
+                 cw_win_ini_file.AddSetting("CW_WIN", "NONRANDOM", "YES");
+                 Cw_winForm.non_random_flag = true;
              }
              else
              {
-                 cw_win_ini_file.AddSetting("CW_WIN", "ENGLISH", "NO");
-                 Cw_winForm.english_flag = false;
+                 cw_win_ini_file.AddSetting("CW_WIN", "NONRANDOM", "NO");
+                 Cw_winForm.non_random_flag = false;
              }
+
 
                // Пауза перед стартом
              cw_win_ini_file.AddSetting("CW_WIN", "STARTPAUSE", textBox_Config_StartPause.Text);

@@ -135,7 +135,7 @@
   <data name="label_Config_Calibr.Text" xml:space="preserve">
     <value>Calibration of speed</value>
   </data>
-  <data name="checkBox_mp3.Text" xml:space="preserve">
+  <data name="checkBox_Config_mp3.Text" xml:space="preserve">
     <value>Alternative MP3</value>
   </data>
   <data name="label_Config_N_Word.Text" xml:space="preserve">
@@ -149,6 +149,9 @@
   </data>
   <data name="label_Config_Interval.Text" xml:space="preserve">
     <value>Spacing (dash)</value>
+  </data>
+  <data name="checkBox_Config_non_random.Text" xml:space="preserve">
+    <value>Non-random words</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">

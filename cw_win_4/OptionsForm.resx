@@ -117,386 +117,359 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="button_Config_Save.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Tahoma, 12pt, style=Bold</value>
-  </data>
-  <data name="button_Config_Save.Location" type="System.Drawing.Point, System.Drawing">
-    <value>152, 214</value>
-  </data>
-  <data name="button_Config_Save.Size" type="System.Drawing.Size, System.Drawing">
-    <value>112, 41</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="button_Config_Save.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="button_Config_Save.Text" xml:space="preserve">
-    <value>Сохранить</value>
-  </data>
-  <data name="&gt;&gt;button_Config_Save.Name" xml:space="preserve">
-    <value>button_Config_Save</value>
-  </data>
-  <data name="&gt;&gt;button_Config_Save.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button_Config_Save.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;button_Config_Save.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="button_Config_Exit.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Tahoma, 12pt, style=Bold</value>
-  </data>
-  <data name="button_Config_Exit.Location" type="System.Drawing.Point, System.Drawing">
-    <value>280, 214</value>
-  </data>
-  <data name="button_Config_Exit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>112, 41</value>
-  </data>
-  <data name="button_Config_Exit.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="button_Config_Exit.Text" xml:space="preserve">
-    <value>Выход</value>
-  </data>
-  <data name="&gt;&gt;button_Config_Exit.Name" xml:space="preserve">
-    <value>button_Config_Exit</value>
-  </data>
-  <data name="&gt;&gt;button_Config_Exit.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button_Config_Exit.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;button_Config_Exit.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="checkBox_Config_RusPunktuation.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
-  </data>
-  <data name="checkBox_Config_RusPunktuation.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Tahoma, 12pt, style=Bold</value>
-  </data>
-  <data name="checkBox_Config_RusPunktuation.Location" type="System.Drawing.Point, System.Drawing">
-    <value>14, 24</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="checkBox_Config_RusPunktuation.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="checkBox_Config_RusPunktuation.Size" type="System.Drawing.Size, System.Drawing">
-    <value>250, 24</value>
-  </data>
-  <data name="checkBox_Config_RusPunktuation.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="checkBox_Config_RusPunktuation.Text" xml:space="preserve">
-    <value>Русские знаки "!", "." и ","</value>
-  </data>
-  <data name="&gt;&gt;checkBox_Config_RusPunktuation.Name" xml:space="preserve">
-    <value>checkBox_Config_RusPunktuation</value>
-  </data>
-  <data name="&gt;&gt;checkBox_Config_RusPunktuation.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkBox_Config_RusPunktuation.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;checkBox_Config_RusPunktuation.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="checkBox_Config_EngInterface.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
-  </data>
-  <data name="checkBox_Config_EngInterface.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Tahoma, 12pt, style=Bold</value>
-  </data>
-  <data name="checkBox_Config_EngInterface.Location" type="System.Drawing.Point, System.Drawing">
-    <value>14, 49</value>
-  </data>
-  <data name="checkBox_Config_EngInterface.Size" type="System.Drawing.Size, System.Drawing">
-    <value>250, 24</value>
-  </data>
-  <data name="checkBox_Config_EngInterface.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="checkBox_Config_EngInterface.Text" xml:space="preserve">
-    <value>Английский интерфейс</value>
-  </data>
-  <data name="&gt;&gt;checkBox_Config_EngInterface.Name" xml:space="preserve">
-    <value>checkBox_Config_EngInterface</value>
-  </data>
-  <data name="&gt;&gt;checkBox_Config_EngInterface.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkBox_Config_EngInterface.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;checkBox_Config_EngInterface.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="textBox_Config_StartPause.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Tahoma, 11pt, style=Bold</value>
-  </data>
-  <data name="textBox_Config_StartPause.Location" type="System.Drawing.Point, System.Drawing">
-    <value>214, 98</value>
-  </data>
-  <data name="textBox_Config_StartPause.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 25</value>
-  </data>
-  <data name="textBox_Config_StartPause.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="textBox_Config_StartPause.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Right</value>
-  </data>
-  <data name="&gt;&gt;textBox_Config_StartPause.Name" xml:space="preserve">
-    <value>textBox_Config_StartPause</value>
-  </data>
-  <data name="&gt;&gt;textBox_Config_StartPause.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBox_Config_StartPause.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;textBox_Config_StartPause.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="label_Config_StartPause.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Tahoma, 12pt, style=Bold</value>
-  </data>
-  <data name="label_Config_StartPause.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 100</value>
-  </data>
-  <data name="label_Config_StartPause.Size" type="System.Drawing.Size, System.Drawing">
-    <value>193, 23</value>
-  </data>
-  <data name="label_Config_StartPause.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="label_Config_StartPause.Text" xml:space="preserve">
-    <value>Пауза перед стартом</value>
-  </data>
-  <data name="label_Config_StartPause.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="&gt;&gt;label_Config_StartPause.Name" xml:space="preserve">
-    <value>label_Config_StartPause</value>
-  </data>
-  <data name="&gt;&gt;label_Config_StartPause.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label_Config_StartPause.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label_Config_StartPause.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="label_Config_Calibr.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Tahoma, 12pt, style=Bold</value>
-  </data>
-  <data name="label_Config_Calibr.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 126</value>
-  </data>
-  <data name="label_Config_Calibr.Size" type="System.Drawing.Size, System.Drawing">
-    <value>193, 24</value>
-  </data>
-  <data name="label_Config_Calibr.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="label_Config_Calibr.Text" xml:space="preserve">
-    <value>Калибровка скорости</value>
-  </data>
-  <data name="label_Config_Calibr.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="&gt;&gt;label_Config_Calibr.Name" xml:space="preserve">
-    <value>label_Config_Calibr</value>
-  </data>
-  <data name="&gt;&gt;label_Config_Calibr.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;checkBox_Config_mp3.Name" xml:space="preserve">
+    <value>checkBox_Config_mp3</value>
   </data>
   <data name="&gt;&gt;label_Config_Calibr.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;label_Config_Calibr.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="textBox_Config_Calibr.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Tahoma, 11pt, style=Bold</value>
-  </data>
-  <data name="textBox_Config_Calibr.Location" type="System.Drawing.Point, System.Drawing">
-    <value>214, 127</value>
-  </data>
-  <data name="textBox_Config_Calibr.Size" type="System.Drawing.Size, System.Drawing">
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="textBox_Config_Interval.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 25</value>
   </data>
-  <data name="textBox_Config_Calibr.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+  <data name="textBox_Config_StartPause.Location" type="System.Drawing.Point, System.Drawing">
+    <value>214, 128</value>
   </data>
-  <data name="textBox_Config_Calibr.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Right</value>
-  </data>
-  <data name="&gt;&gt;textBox_Config_Calibr.Name" xml:space="preserve">
-    <value>textBox_Config_Calibr</value>
-  </data>
-  <data name="&gt;&gt;textBox_Config_Calibr.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBox_Config_Calibr.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;textBox_Config_Calibr.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="label_SaveMessage.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Tahoma, 12pt, style=Bold</value>
-  </data>
-  <data name="label_SaveMessage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>152, 157</value>
-  </data>
-  <data name="label_SaveMessage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>240, 49</value>
-  </data>
-  <data name="label_SaveMessage.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="label_SaveMessage.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="&gt;&gt;label_SaveMessage.Name" xml:space="preserve">
-    <value>label_SaveMessage</value>
-  </data>
-  <data name="&gt;&gt;label_SaveMessage.Type" xml:space="preserve">
+  <data name="&gt;&gt;label_Config_StartPause.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label_SaveMessage.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;textBox_Config_Tone.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
-  <data name="&gt;&gt;label_SaveMessage.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="button_Config_Exit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 258</value>
   </data>
-  <data name="checkBox_Config_mp3.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
-  </data>
-  <data name="checkBox_Config_mp3.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="label_Config_Calibr.Font" type="System.Drawing.Font, System.Drawing">
     <value>Tahoma, 12pt, style=Bold</value>
   </data>
-  <data name="checkBox_Config_mp3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="checkBox_Config_mp3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>14, 74</value>
-  </data>
-  <data name="checkBox_Config_mp3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>250, 24</value>
-  </data>
-  <data name="checkBox_Config_mp3.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
-  </data>
-  <data name="checkBox_Config_mp3.Text" xml:space="preserve">
-    <value>Альтернативный MP3</value>
-  </data>
-  <data name="&gt;&gt;checkBox_Config_mp3.Name" xml:space="preserve">
-    <value>checkBox_Config_mp3</value>
-  </data>
-  <data name="&gt;&gt;checkBox_Config_mp3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkBox_Config_mp3.Parent" xml:space="preserve">
+  <data name="&gt;&gt;checkBox_Config_non_random.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;checkBox_Config_mp3.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
-  <data name="textBox_Config_N_Word.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Tahoma, 11pt, style=Bold</value>
-  </data>
-  <data name="textBox_Config_N_Word.Location" type="System.Drawing.Point, System.Drawing">
-    <value>209, 20</value>
-  </data>
-  <data name="textBox_Config_N_Word.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 25</value>
-  </data>
-  <data name="textBox_Config_N_Word.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="textBox_Config_N_Word.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Right</value>
-  </data>
-  <data name="&gt;&gt;textBox_Config_N_Word.Name" xml:space="preserve">
-    <value>textBox_Config_N_Word</value>
-  </data>
-  <data name="&gt;&gt;textBox_Config_N_Word.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBox_Config_N_Word.Parent" xml:space="preserve">
-    <value>groupBox_Config_1</value>
-  </data>
-  <data name="&gt;&gt;textBox_Config_N_Word.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="label_Config_N_Word.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Tahoma, 12pt, style=Bold</value>
-  </data>
-  <data name="label_Config_N_Word.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label_Config_N_Word.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 22</value>
-  </data>
-  <data name="label_Config_N_Word.Size" type="System.Drawing.Size, System.Drawing">
-    <value>205, 24</value>
-  </data>
-  <data name="label_Config_N_Word.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
+  <data name="&gt;&gt;textBox_Config_Calibr.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
   <data name="label_Config_N_Word.Text" xml:space="preserve">
     <value>Количество слов</value>
   </data>
-  <data name="label_Config_N_Word.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="&gt;&gt;label_Config_N_Word.Name" xml:space="preserve">
-    <value>label_Config_N_Word</value>
-  </data>
-  <data name="&gt;&gt;label_Config_N_Word.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label_Config_N_Word.Parent" xml:space="preserve">
-    <value>groupBox_Config_1</value>
-  </data>
-  <data name="&gt;&gt;label_Config_N_Word.ZOrder" xml:space="preserve">
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="textBox_Config_Calibr.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
-  <data name="textBox_Config_Speed.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="&gt;&gt;label_Config_Tone.Parent" xml:space="preserve">
+    <value>groupBox_Config_1</value>
+  </data>
+  <data name="&gt;&gt;button_Config_Exit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="textBox_Config_StartPause.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;textBox_Config_Tone.Parent" xml:space="preserve">
+    <value>groupBox_Config_1</value>
+  </data>
+  <data name="&gt;&gt;label_Config_Tone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label_Config_N_Word.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label_Config_Interval.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 104</value>
+  </data>
+  <data name="label_Config_N_Word.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 24</value>
+  </data>
+  <data name="textBox_Config_N_Word.Font" type="System.Drawing.Font, System.Drawing">
     <value>Tahoma, 11pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;textBox_Config_Calibr.Name" xml:space="preserve">
+    <value>textBox_Config_Calibr</value>
   </data>
   <data name="textBox_Config_Speed.Location" type="System.Drawing.Point, System.Drawing">
     <value>209, 48</value>
   </data>
-  <data name="textBox_Config_Speed.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="&gt;&gt;label_SaveMessage.Name" xml:space="preserve">
+    <value>label_SaveMessage</value>
+  </data>
+  <data name="&gt;&gt;button_Config_Save.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="checkBox_Config_mp3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 74</value>
+  </data>
+  <data name="label_Config_Speed.Text" xml:space="preserve">
+    <value>Скорость (знаков/мин)</value>
+  </data>
+  <data name="checkBox_Config_mp3.Text" xml:space="preserve">
+    <value>Альтернативный MP3</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>566, 318</value>
+  </data>
+  <data name="label_Config_Tone.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="textBox_Config_Tone.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 11pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;checkBox_Config_RusPunktuation.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;textBox_Config_Calibr.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>CW_WIN. Настройки.</value>
+  </data>
+  <data name="&gt;&gt;button_Config_Exit.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="checkBox_Config_mp3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label_Config_Calibr.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;label_Config_N_Word.Name" xml:space="preserve">
+    <value>label_Config_N_Word</value>
+  </data>
+  <data name="checkBox_Config_mp3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 24</value>
+  </data>
+  <data name="checkBox_Config_non_random.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label_SaveMessage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 49</value>
+  </data>
+  <data name="&gt;&gt;label_Config_Interval.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label_Config_N_Word.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="label_Config_Calibr.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 156</value>
+  </data>
+  <data name="label_Config_N_Word.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt, style=Bold</value>
+  </data>
+  <data name="checkBox_Config_RusPunktuation.Text" xml:space="preserve">
+    <value>Русские знаки "!", "." и ","</value>
+  </data>
+  <data name="&gt;&gt;groupBox_Config_1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="groupBox_Config_1.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="textBox_Config_Tone.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 25</value>
   </data>
-  <data name="textBox_Config_Speed.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
+  <data name="&gt;&gt;textBox_Config_N_Word.ZOrder" xml:space="preserve">
+    <value>7</value>
   </data>
-  <data name="textBox_Config_Speed.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+  <data name="textBox_Config_Interval.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
     <value>Right</value>
   </data>
-  <data name="&gt;&gt;textBox_Config_Speed.Name" xml:space="preserve">
-    <value>textBox_Config_Speed</value>
+  <data name="&gt;&gt;textBox_Config_StartPause.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_Config_Speed.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="checkBox_Config_non_random.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 24</value>
+  </data>
+  <data name="&gt;&gt;textBox_Config_Interval.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="button_Config_Exit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt, style=Bold</value>
+  </data>
+  <data name="textBox_Config_Tone.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
   </data>
   <data name="&gt;&gt;textBox_Config_Speed.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="label_Config_Calibr.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="textBox_Config_Calibr.Location" type="System.Drawing.Point, System.Drawing">
+    <value>214, 157</value>
+  </data>
+  <data name="label_Config_Tone.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;button_Config_Save.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="button_Config_Save.Text" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="&gt;&gt;label_Config_Calibr.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label_Config_StartPause.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;label_Config_N_Word.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="textBox_Config_N_Word.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, 20</value>
+  </data>
+  <data name="&gt;&gt;groupBox_Config_1.Name" xml:space="preserve">
+    <value>groupBox_Config_1</value>
+  </data>
+  <data name="textBox_Config_N_Word.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;checkBox_Config_RusPunktuation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="textBox_Config_Speed.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 11pt, style=Bold</value>
+  </data>
+  <data name="label_Config_Interval.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;button_Config_Exit.Name" xml:space="preserve">
+    <value>button_Config_Exit</value>
+  </data>
+  <data name="&gt;&gt;button_Config_Save.Name" xml:space="preserve">
+    <value>button_Config_Save</value>
+  </data>
+  <data name="checkBox_Config_non_random.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 99</value>
+  </data>
+  <data name="checkBox_Config_RusPunktuation.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt, style=Bold</value>
+  </data>
+  <data name="label_Config_N_Word.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="label_Config_N_Word.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 22</value>
+  </data>
+  <data name="&gt;&gt;checkBox_Config_EngInterface.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="label_Config_Speed.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="label_Config_Interval.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;checkBox_Config_RusPunktuation.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="button_Config_Save.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 41</value>
+  </data>
+  <data name="label_Config_Calibr.Text" xml:space="preserve">
+    <value>Калибровка скорости</value>
+  </data>
+  <data name="&gt;&gt;textBox_Config_Interval.Parent" xml:space="preserve">
+    <value>groupBox_Config_1</value>
+  </data>
+  <data name="&gt;&gt;checkBox_Config_EngInterface.Name" xml:space="preserve">
+    <value>checkBox_Config_EngInterface</value>
+  </data>
+  <data name="textBox_Config_Interval.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, 104</value>
+  </data>
+  <data name="label_Config_Tone.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;label_Config_Tone.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label_Config_Tone.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 76</value>
+  </data>
+  <data name="&gt;&gt;checkBox_Config_non_random.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_Config_N_Word.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="textBox_Config_Speed.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="checkBox_Config_non_random.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label_Config_StartPause.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt, style=Bold</value>
+  </data>
+  <data name="checkBox_Config_RusPunktuation.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="button_Config_Exit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 41</value>
+  </data>
   <data name="&gt;&gt;textBox_Config_Speed.Parent" xml:space="preserve">
     <value>groupBox_Config_1</value>
   </data>
-  <data name="&gt;&gt;textBox_Config_Speed.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="checkBox_Config_EngInterface.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;checkBox_Config_EngInterface.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="&gt;&gt;label_Config_StartPause.Name" xml:space="preserve">
+    <value>label_Config_StartPause</value>
+  </data>
+  <data name="&gt;&gt;checkBox_Config_mp3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label_Config_Speed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 48</value>
+  </data>
+  <data name="groupBox_Config_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>268, 142</value>
+  </data>
+  <data name="checkBox_Config_mp3.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="checkBox_Config_EngInterface.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 24</value>
+  </data>
+  <data name="button_Config_Exit.Text" xml:space="preserve">
+    <value>Выход</value>
+  </data>
+  <data name="&gt;&gt;textBox_Config_Tone.Name" xml:space="preserve">
+    <value>textBox_Config_Tone</value>
+  </data>
+  <data name="label_Config_Calibr.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 24</value>
+  </data>
+  <data name="textBox_Config_StartPause.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 11pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;textBox_Config_StartPause.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="checkBox_Config_EngInterface.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="groupBox_Config_1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 12</value>
+  </data>
+  <data name="&gt;&gt;textBox_Config_Speed.Name" xml:space="preserve">
+    <value>textBox_Config_Speed</value>
   </data>
   <data name="label_Config_Speed.Font" type="System.Drawing.Font, System.Drawing">
     <value>Tahoma, 12pt, style=Bold</value>
@@ -504,196 +477,256 @@
   <data name="label_Config_Speed.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="label_Config_Speed.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 48</value>
-  </data>
-  <data name="label_Config_Speed.Size" type="System.Drawing.Size, System.Drawing">
-    <value>205, 24</value>
-  </data>
-  <data name="label_Config_Speed.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="label_Config_Speed.Text" xml:space="preserve">
-    <value>Скорость (знаков/мин)</value>
-  </data>
-  <data name="label_Config_Speed.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="&gt;&gt;label_Config_Speed.Name" xml:space="preserve">
-    <value>label_Config_Speed</value>
-  </data>
-  <data name="&gt;&gt;label_Config_Speed.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label_Config_Speed.Parent" xml:space="preserve">
+  <data name="&gt;&gt;label_Config_N_Word.Parent" xml:space="preserve">
     <value>groupBox_Config_1</value>
   </data>
-  <data name="&gt;&gt;label_Config_Speed.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="textBox_Config_Tone.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Tahoma, 11pt, style=Bold</value>
-  </data>
-  <data name="textBox_Config_Tone.Location" type="System.Drawing.Point, System.Drawing">
-    <value>209, 76</value>
-  </data>
-  <data name="textBox_Config_Tone.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 25</value>
-  </data>
-  <data name="textBox_Config_Tone.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="textBox_Config_Tone.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+  <data name="textBox_Config_Calibr.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
     <value>Right</value>
   </data>
-  <data name="&gt;&gt;textBox_Config_Tone.Name" xml:space="preserve">
-    <value>textBox_Config_Tone</value>
-  </data>
-  <data name="&gt;&gt;textBox_Config_Tone.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBox_Config_Tone.Parent" xml:space="preserve">
-    <value>groupBox_Config_1</value>
-  </data>
-  <data name="&gt;&gt;textBox_Config_Tone.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="label_Config_Tone.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Tahoma, 12pt, style=Bold</value>
-  </data>
-  <data name="label_Config_Tone.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label_Config_Tone.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 76</value>
-  </data>
-  <data name="label_Config_Tone.Size" type="System.Drawing.Size, System.Drawing">
-    <value>205, 24</value>
-  </data>
-  <data name="label_Config_Tone.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="label_Config_Tone.Text" xml:space="preserve">
-    <value>Высота тона (Гц)</value>
-  </data>
-  <data name="label_Config_Tone.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="&gt;&gt;label_Config_Tone.Name" xml:space="preserve">
-    <value>label_Config_Tone</value>
-  </data>
-  <data name="&gt;&gt;label_Config_Tone.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label_Config_Tone.Parent" xml:space="preserve">
-    <value>groupBox_Config_1</value>
-  </data>
-  <data name="&gt;&gt;label_Config_Tone.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="textBox_Config_Interval.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Tahoma, 11pt, style=Bold</value>
-  </data>
-  <data name="textBox_Config_Interval.Location" type="System.Drawing.Point, System.Drawing">
-    <value>209, 104</value>
-  </data>
-  <data name="textBox_Config_Interval.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 25</value>
-  </data>
-  <data name="textBox_Config_Interval.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="textBox_Config_Interval.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Right</value>
-  </data>
-  <data name="&gt;&gt;textBox_Config_Interval.Name" xml:space="preserve">
-    <value>textBox_Config_Interval</value>
+  <data name="label_Config_StartPause.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
   </data>
   <data name="&gt;&gt;textBox_Config_Interval.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;textBox_Config_Interval.Parent" xml:space="preserve">
-    <value>groupBox_Config_1</value>
+  <data name="textBox_Config_Tone.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, 76</value>
   </data>
-  <data name="&gt;&gt;textBox_Config_Interval.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="checkBox_Config_non_random.Text" xml:space="preserve">
+    <value>Неслучайные слова</value>
   </data>
-  <data name="label_Config_Interval.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Tahoma, 12pt, style=Bold</value>
+  <data name="label_SaveMessage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 201</value>
   </data>
-  <data name="label_Config_Interval.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="&gt;&gt;textBox_Config_N_Word.Name" xml:space="preserve">
+    <value>textBox_Config_N_Word</value>
   </data>
-  <data name="label_Config_Interval.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 104</value>
+  <data name="&gt;&gt;label_Config_Calibr.Name" xml:space="preserve">
+    <value>label_Config_Calibr</value>
   </data>
-  <data name="label_Config_Interval.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="textBox_Config_Interval.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;textBox_Config_Speed.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;label_Config_StartPause.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label_Config_Tone.Size" type="System.Drawing.Size, System.Drawing">
     <value>205, 24</value>
-  </data>
-  <data name="label_Config_Interval.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="label_Config_Interval.Text" xml:space="preserve">
-    <value>Интервал (тире)</value>
-  </data>
-  <data name="label_Config_Interval.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="&gt;&gt;label_Config_Interval.Name" xml:space="preserve">
-    <value>label_Config_Interval</value>
-  </data>
-  <data name="&gt;&gt;label_Config_Interval.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label_Config_Interval.Parent" xml:space="preserve">
     <value>groupBox_Config_1</value>
   </data>
-  <data name="&gt;&gt;label_Config_Interval.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="label_Config_Interval.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
   </data>
-  <data name="groupBox_Config_1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12.25pt</value>
-  </data>
-  <data name="groupBox_Config_1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>280, 12</value>
-  </data>
-  <data name="groupBox_Config_1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>268, 142</value>
-  </data>
-  <data name="groupBox_Config_1.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
-  <data name="&gt;&gt;groupBox_Config_1.Name" xml:space="preserve">
-    <value>groupBox_Config_1</value>
-  </data>
-  <data name="&gt;&gt;groupBox_Config_1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox_Config_1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;textBox_Config_StartPause.Parent" xml:space="preserve">
     <value>$this</value>
-  </data>
-  <data name="&gt;&gt;groupBox_Config_1.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>566, 265</value>
-  </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>CW_WIN. Настройки.</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>ConfigForm</value>
   </data>
+  <data name="label_Config_StartPause.Text" xml:space="preserve">
+    <value>Пауза перед стартом</value>
+  </data>
+  <data name="textBox_Config_Calibr.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 25</value>
+  </data>
+  <data name="label_Config_Speed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 24</value>
+  </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="label_Config_StartPause.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 23</value>
+  </data>
+  <data name="&gt;&gt;textBox_Config_N_Word.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label_SaveMessage.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="textBox_Config_N_Word.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;label_Config_Tone.Name" xml:space="preserve">
+    <value>label_Config_Tone</value>
+  </data>
+  <data name="&gt;&gt;checkBox_Config_RusPunktuation.Name" xml:space="preserve">
+    <value>checkBox_Config_RusPunktuation</value>
+  </data>
+  <data name="&gt;&gt;label_Config_Calibr.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label_Config_Tone.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;groupBox_Config_1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="checkBox_Config_EngInterface.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt, style=Bold</value>
+  </data>
+  <data name="checkBox_Config_non_random.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt, style=Bold</value>
+  </data>
+  <data name="button_Config_Save.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt, style=Bold</value>
+  </data>
+  <data name="textBox_Config_StartPause.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="checkBox_Config_EngInterface.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 49</value>
+  </data>
+  <data name="&gt;&gt;textBox_Config_Calibr.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label_SaveMessage.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt, style=Bold</value>
+  </data>
+  <data name="textBox_Config_Speed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 25</value>
+  </data>
+  <data name="button_Config_Exit.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label_SaveMessage.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBox_Config_non_random.Name" xml:space="preserve">
+    <value>checkBox_Config_non_random</value>
+  </data>
+  <data name="checkBox_Config_RusPunktuation.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="textBox_Config_Interval.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 11pt, style=Bold</value>
+  </data>
+  <data name="label_Config_Speed.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="groupBox_Config_1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12.25pt</value>
+  </data>
+  <data name="checkBox_Config_mp3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;label_Config_StartPause.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;label_Config_Interval.Name" xml:space="preserve">
+    <value>label_Config_Interval</value>
+  </data>
+  <data name="label_SaveMessage.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;label_Config_Speed.Name" xml:space="preserve">
+    <value>label_Config_Speed</value>
+  </data>
+  <data name="label_Config_StartPause.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 130</value>
+  </data>
+  <data name="textBox_Config_Tone.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;label_Config_Interval.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox_Config_Tone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox_Config_N_Word.Parent" xml:space="preserve">
+    <value>groupBox_Config_1</value>
+  </data>
+  <data name="label_Config_Interval.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 24</value>
+  </data>
+  <data name="button_Config_Save.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;checkBox_Config_non_random.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label_SaveMessage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label_Config_Interval.Text" xml:space="preserve">
+    <value>Интервал (тире)</value>
+  </data>
+  <data name="textBox_Config_Calibr.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 11pt, style=Bold</value>
+  </data>
+  <data name="textBox_Config_StartPause.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 25</value>
+  </data>
+  <data name="&gt;&gt;label_Config_Speed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_Config_Save.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_Config_Speed.Parent" xml:space="preserve">
+    <value>groupBox_Config_1</value>
+  </data>
+  <data name="checkBox_Config_RusPunktuation.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="checkBox_Config_RusPunktuation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 24</value>
+  </data>
+  <data name="&gt;&gt;label_SaveMessage.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;textBox_Config_Interval.Name" xml:space="preserve">
+    <value>textBox_Config_Interval</value>
+  </data>
+  <data name="checkBox_Config_EngInterface.Text" xml:space="preserve">
+    <value>Английский интерфейс</value>
+  </data>
+  <data name="textBox_Config_Speed.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="checkBox_Config_RusPunktuation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 24</value>
+  </data>
+  <data name="textBox_Config_N_Word.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 25</value>
+  </data>
+  <data name="label_Config_Tone.Text" xml:space="preserve">
+    <value>Высота тона (Гц)</value>
+  </data>
+  <data name="checkBox_Config_non_random.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;checkBox_Config_EngInterface.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label_Config_Interval.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt, style=Bold</value>
+  </data>
+  <data name="button_Config_Save.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 258</value>
+  </data>
+  <data name="checkBox_Config_mp3.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;textBox_Config_StartPause.Name" xml:space="preserve">
+    <value>textBox_Config_StartPause</value>
+  </data>
+  <data name="&gt;&gt;groupBox_Config_1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBox_Config_mp3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button_Config_Exit.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
 </root>
