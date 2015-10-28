@@ -1183,6 +1183,18 @@ namespace cw_win_4
                 fileName = fileName.Remove(fileName.IndexOf(":")+1);
             }
 
+            // Текущая дата
+            string currentDate = DateTime.Now.Year.ToString() + 
+                                 DateTime.Now.Month.ToString() +
+                                 DateTime.Now.Day.ToString();
+            
+            string currentTime = DateTime.Now.Hour.ToString() + 
+                                 DateTime.Now.Minute.ToString() +
+                                 DateTime.Now.Second.ToString();
+            
+            // Добавляем дату и время к именам звуковых файлов
+            audioFileName = audioFileName + "-" + currentDate + currentTime;
+
             // Добавляем к папке имя звуковых файлов
             fileName = fileName + audioFileName;
             fileNameOld = fileNameOld + audioFileName; 
@@ -1763,15 +1775,15 @@ namespace cw_win_4
                     
                     if (non_random_flag)
                     {
-                        screen_Out(word);     // вывод на label непрерывно
+                        screen_Out(word);               // вывод на label непрерывно
                     }
                     else
                     {
-                        screen_Out_By_10(i, word);     // вывод на label по 10 слов
+                        screen_Out_By_10(i, word);      // вывод на label по 10 слов
                     }
                     
 
-                    WavPause(writer, interval * dash);                // Пауза между словами
+                    WavPause(writer, interval * dash);  // Пауза между словами
 
                 } // End for(i)
 
