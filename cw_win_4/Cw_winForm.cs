@@ -21,7 +21,7 @@ namespace cw_win_4
         string fileNameHlp = Path.ChangeExtension("cw_win_4", "chm");   // Файл win-помощи
         public static string cw_win_user_folder = "cw_win";             // Папка для INI-файла
         public static string ini_file_name = "cw_win.ini";              // Имя INI-файла
-        public static string audioFileName = "\\cw_audio";              // Начало имени звуковых файлов
+        public static string originalAudioFileName = "\\cw_audio";      // Начало имени звуковых файлов
         string[] AllWords;                                              // Массив для слов из файла
 
         // Значения по умолчанию
@@ -1193,7 +1193,7 @@ namespace cw_win_4
                                  DateTime.Now.Second.ToString();
             
             // Добавляем дату и время к именам звуковых файлов
-            audioFileName = audioFileName + "-" + currentDate + currentTime;
+            string audioFileName = originalAudioFileName + "-" + currentDate + currentTime;
 
             // Добавляем к папке имя звуковых файлов
             fileName = fileName + audioFileName;
