@@ -30,6 +30,7 @@ namespace cw_win_4
             checkBox_Config_EngInterface.Checked = Cw_winForm.english_flag;
             checkBox_Config_mp3.Checked = Cw_winForm.alternative_mp3_flag;
             checkBox_Config_non_random.Checked = Cw_winForm.non_random_flag;
+            checkBox_Config_dynamic_interval.Checked = Cw_winForm.dynamic_interval_flag;
 
             textBox_Config_StartPause.Text = Cw_winForm.startpause.ToString();
             textBox_Config_Calibr.Text = Cw_winForm.speed_calibr.ToString();
@@ -125,7 +126,18 @@ namespace cw_win_4
                  Cw_winForm.non_random_flag = false;
              }
 
-
+             // Включить режим динамического интервала
+             if (checkBox_Config_dynamic_interval.Checked)
+             {
+                 cw_win_ini_file.AddSetting("CW_WIN", "DYNAMICINTERVAL", "YES");
+                 Cw_winForm.dynamic_interval_flag = true;
+             }
+             else
+             {
+                 cw_win_ini_file.AddSetting("CW_WIN", "DYNAMICINTERVAL", "NO");
+                 Cw_winForm.dynamic_interval_flag = false;
+             }
+             
                // Пауза перед стартом
              cw_win_ini_file.AddSetting("CW_WIN", "STARTPAUSE", textBox_Config_StartPause.Text);
              Cw_winForm.startpause = int.Parse(textBox_Config_StartPause.Text);

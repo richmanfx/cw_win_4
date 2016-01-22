@@ -49,6 +49,7 @@
             this.label_Config_Interval = new System.Windows.Forms.Label();
             this.groupBox_Config_1 = new System.Windows.Forms.GroupBox();
             this.checkBox_Config_non_random = new System.Windows.Forms.CheckBox();
+            this.checkBox_Config_dynamic_interval = new System.Windows.Forms.CheckBox();
             this.groupBox_Config_1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -84,8 +85,8 @@
             // 
             // textBox_Config_StartPause
             // 
-            resources.ApplyResources(this.textBox_Config_StartPause, "textBox_Config_StartPause");
             this.textBox_Config_StartPause.BackColor = System.Drawing.Color.DarkSlateGray;
+            resources.ApplyResources(this.textBox_Config_StartPause, "textBox_Config_StartPause");
             this.textBox_Config_StartPause.ForeColor = System.Drawing.Color.Yellow;
             this.textBox_Config_StartPause.Name = "textBox_Config_StartPause";
             // 
@@ -103,15 +104,15 @@
             // 
             // textBox_Config_Calibr
             // 
-            resources.ApplyResources(this.textBox_Config_Calibr, "textBox_Config_Calibr");
             this.textBox_Config_Calibr.BackColor = System.Drawing.Color.DarkSlateGray;
+            resources.ApplyResources(this.textBox_Config_Calibr, "textBox_Config_Calibr");
             this.textBox_Config_Calibr.ForeColor = System.Drawing.Color.Yellow;
             this.textBox_Config_Calibr.Name = "textBox_Config_Calibr";
             // 
             // label_SaveMessage
             // 
-            resources.ApplyResources(this.label_SaveMessage, "label_SaveMessage");
             this.label_SaveMessage.BackColor = System.Drawing.Color.Teal;
+            resources.ApplyResources(this.label_SaveMessage, "label_SaveMessage");
             this.label_SaveMessage.ForeColor = System.Drawing.Color.Lime;
             this.label_SaveMessage.Name = "label_SaveMessage";
             // 
@@ -124,8 +125,8 @@
             // 
             // textBox_Config_N_Word
             // 
-            resources.ApplyResources(this.textBox_Config_N_Word, "textBox_Config_N_Word");
             this.textBox_Config_N_Word.BackColor = System.Drawing.Color.DarkSlateGray;
+            resources.ApplyResources(this.textBox_Config_N_Word, "textBox_Config_N_Word");
             this.textBox_Config_N_Word.ForeColor = System.Drawing.Color.Yellow;
             this.textBox_Config_N_Word.Name = "textBox_Config_N_Word";
             // 
@@ -137,8 +138,8 @@
             // 
             // textBox_Config_Speed
             // 
-            resources.ApplyResources(this.textBox_Config_Speed, "textBox_Config_Speed");
             this.textBox_Config_Speed.BackColor = System.Drawing.Color.DarkSlateGray;
+            resources.ApplyResources(this.textBox_Config_Speed, "textBox_Config_Speed");
             this.textBox_Config_Speed.ForeColor = System.Drawing.Color.Yellow;
             this.textBox_Config_Speed.Name = "textBox_Config_Speed";
             // 
@@ -150,8 +151,8 @@
             // 
             // textBox_Config_Tone
             // 
-            resources.ApplyResources(this.textBox_Config_Tone, "textBox_Config_Tone");
             this.textBox_Config_Tone.BackColor = System.Drawing.Color.DarkSlateGray;
+            resources.ApplyResources(this.textBox_Config_Tone, "textBox_Config_Tone");
             this.textBox_Config_Tone.ForeColor = System.Drawing.Color.Yellow;
             this.textBox_Config_Tone.Name = "textBox_Config_Tone";
             // 
@@ -163,8 +164,8 @@
             // 
             // textBox_Config_Interval
             // 
-            resources.ApplyResources(this.textBox_Config_Interval, "textBox_Config_Interval");
             this.textBox_Config_Interval.BackColor = System.Drawing.Color.DarkSlateGray;
+            resources.ApplyResources(this.textBox_Config_Interval, "textBox_Config_Interval");
             this.textBox_Config_Interval.ForeColor = System.Drawing.Color.Yellow;
             this.textBox_Config_Interval.Name = "textBox_Config_Interval";
             // 
@@ -176,7 +177,6 @@
             // 
             // groupBox_Config_1
             // 
-            resources.ApplyResources(this.groupBox_Config_1, "groupBox_Config_1");
             this.groupBox_Config_1.Controls.Add(this.label_Config_Interval);
             this.groupBox_Config_1.Controls.Add(this.textBox_Config_Interval);
             this.groupBox_Config_1.Controls.Add(this.label_Config_Tone);
@@ -185,6 +185,7 @@
             this.groupBox_Config_1.Controls.Add(this.textBox_Config_Speed);
             this.groupBox_Config_1.Controls.Add(this.label_Config_N_Word);
             this.groupBox_Config_1.Controls.Add(this.textBox_Config_N_Word);
+            resources.ApplyResources(this.groupBox_Config_1, "groupBox_Config_1");
             this.groupBox_Config_1.ForeColor = System.Drawing.Color.Cyan;
             this.groupBox_Config_1.Name = "groupBox_Config_1";
             this.groupBox_Config_1.TabStop = false;
@@ -196,11 +197,19 @@
             this.checkBox_Config_non_random.Name = "checkBox_Config_non_random";
             this.checkBox_Config_non_random.UseVisualStyleBackColor = true;
             // 
+            // checkBox_Config_dynamic_interval
+            // 
+            resources.ApplyResources(this.checkBox_Config_dynamic_interval, "checkBox_Config_dynamic_interval");
+            this.checkBox_Config_dynamic_interval.ForeColor = System.Drawing.Color.White;
+            this.checkBox_Config_dynamic_interval.Name = "checkBox_Config_dynamic_interval";
+            this.checkBox_Config_dynamic_interval.UseVisualStyleBackColor = true;
+            // 
             // ConfigForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Teal;
+            this.Controls.Add(this.checkBox_Config_dynamic_interval);
             this.Controls.Add(this.checkBox_Config_non_random);
             this.Controls.Add(this.checkBox_Config_mp3);
             this.Controls.Add(this.label_SaveMessage);
@@ -246,5 +255,6 @@
         private System.Windows.Forms.Label label_Config_Interval;
         private System.Windows.Forms.GroupBox groupBox_Config_1;
         private System.Windows.Forms.CheckBox checkBox_Config_non_random;
+        private System.Windows.Forms.CheckBox checkBox_Config_dynamic_interval;
     }
 }

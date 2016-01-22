@@ -18,6 +18,7 @@ namespace cw_win_4
 {
     public partial class Cw_winForm : Form
     {
+        public static string program_version = "4.1.7";                               // Версия программы
         string fileNameHlp = Path.ChangeExtension("cw_win_4", "chm");   // Файл win-помощи
         public static string cw_win_user_folder = "cw_win";             // Папка для INI-файла
         public static string ini_file_name = "cw_win.ini";              // Имя INI-файла
@@ -41,6 +42,7 @@ namespace cw_win_4
         bool working_flag = false;                              // Признак работы режима воспроизведения
         public static bool exist_ini_file = false;              // Признак существования INI-файла
         public static bool non_random_flag = false;             // Признак отмены случайного выбора слов
+        public static bool dynamic_interval_flag = false;       // Признак использования динамического интервала
 
         public Cw_winForm()
         {
@@ -220,7 +222,10 @@ namespace cw_win_4
              else 
                  numberofwords = trackBar_N.Value;
             
+             
              interval = trackBar_Pause.Value;
+
+
              speed = trackBar_Speed.Value;
              tone = trackBar_Tone.Value;
 
@@ -814,15 +819,21 @@ namespace cw_win_4
 
              if (non_random_flag)
              {
-                 screen_Out(word);     // вывод на label непрерывно
+                 screen_Out(word);              // вывод на label непрерывно
              }
              else
              {
                  screen_Out_By_10(i, word);     // вывод на label по 10 слов
              }
 
-           
-             Thread.Sleep(interval * dash);                // Пауза между словами
+             int dynamic_interval = 1;          // Длительность динамического интервала между словами
+             if (dynamic_interval_flag)
+             {
+                 dynamic_interval = word.Length;    
+             }
+
+                    
+             Thread.Sleep(interval * dash * dynamic_interval);     // Пауза между словами
 
             } // End for(i)
 
@@ -1038,6 +1049,13 @@ namespace cw_win_4
                         non_random_flag = false;
                 }
 
+                if (cw_win_ini_file.GetSetting("CW_WIN", "DYNAMICINTERVAL").ToUpper() == "YES")
+                    dynamic_interval_flag = true;
+                else
+                {
+                    if (cw_win_ini_file.GetSetting("CW_WIN", "DYNAMICINTERVAL").ToUpper() == "NO")
+                        dynamic_interval_flag = false;
+                }
 
                 if (cw_win_ini_file.GetSetting("CW_WIN", "ENGLISH").ToUpper() == "YES")
                     english_flag = true;
@@ -1781,9 +1799,15 @@ namespace cw_win_4
                     {
                         screen_Out_By_10(i, word);      // вывод на label по 10 слов
                     }
-                    
 
-                    WavPause(writer, interval * dash);  // Пауза между словами
+
+                    int dynamic_interval = 1;          // Длительность динамического интервала между словами
+                    if (dynamic_interval_flag)
+                    {
+                        dynamic_interval = word.Length;
+                    }
+
+                    WavPause(writer, interval * dash * dynamic_interval);  // Пауза между словами
 
                 } // End for(i)
 

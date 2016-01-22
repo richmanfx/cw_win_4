@@ -87,9 +87,9 @@
             // 
             // label_OutText
             // 
-            resources.ApplyResources(this.label_OutText, "label_OutText");
             this.label_OutText.BackColor = System.Drawing.Color.DarkCyan;
             this.label_OutText.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.label_OutText, "label_OutText");
             this.label_OutText.ForeColor = System.Drawing.Color.White;
             this.label_OutText.Name = "label_OutText";
             // 
@@ -147,10 +147,10 @@
             // 
             // trackBar_N
             // 
-            resources.ApplyResources(this.trackBar_N, "trackBar_N");
             this.trackBar_N.BackColor = System.Drawing.Color.Teal;
             this.trackBar_N.Cursor = System.Windows.Forms.Cursors.SizeWE;
             this.trackBar_N.LargeChange = 10;
+            resources.ApplyResources(this.trackBar_N, "trackBar_N");
             this.trackBar_N.Maximum = 1000;
             this.trackBar_N.Name = "trackBar_N";
             this.trackBar_N.TickFrequency = 100;
@@ -159,9 +159,9 @@
             // 
             // trackBar_Speed
             // 
-            resources.ApplyResources(this.trackBar_Speed, "trackBar_Speed");
             this.trackBar_Speed.BackColor = System.Drawing.Color.Teal;
             this.trackBar_Speed.Cursor = System.Windows.Forms.Cursors.SizeWE;
+            resources.ApplyResources(this.trackBar_Speed, "trackBar_Speed");
             this.trackBar_Speed.Maximum = 250;
             this.trackBar_Speed.Minimum = 50;
             this.trackBar_Speed.Name = "trackBar_Speed";
@@ -173,10 +173,10 @@
             // 
             // trackBar_Pause
             // 
-            resources.ApplyResources(this.trackBar_Pause, "trackBar_Pause");
             this.trackBar_Pause.BackColor = System.Drawing.Color.Teal;
             this.trackBar_Pause.Cursor = System.Windows.Forms.Cursors.SizeWE;
             this.trackBar_Pause.LargeChange = 1;
+            resources.ApplyResources(this.trackBar_Pause, "trackBar_Pause");
             this.trackBar_Pause.Maximum = 20;
             this.trackBar_Pause.Minimum = 1;
             this.trackBar_Pause.Name = "trackBar_Pause";
@@ -186,10 +186,10 @@
             // 
             // trackBar_Tone
             // 
-            resources.ApplyResources(this.trackBar_Tone, "trackBar_Tone");
             this.trackBar_Tone.BackColor = System.Drawing.Color.Teal;
             this.trackBar_Tone.Cursor = System.Windows.Forms.Cursors.SizeWE;
             this.trackBar_Tone.LargeChange = 50;
+            resources.ApplyResources(this.trackBar_Tone, "trackBar_Tone");
             this.trackBar_Tone.Maximum = 2000;
             this.trackBar_Tone.Minimum = 300;
             this.trackBar_Tone.Name = "trackBar_Tone";
@@ -228,78 +228,78 @@
             // 
             // groupBox_regul
             // 
-            resources.ApplyResources(this.groupBox_regul, "groupBox_regul");
             this.groupBox_regul.Controls.Add(this.groupBox4);
             this.groupBox_regul.Controls.Add(this.groupBox3);
             this.groupBox_regul.Controls.Add(this.groupBox2);
+            resources.ApplyResources(this.groupBox_regul, "groupBox_regul");
             this.groupBox_regul.Name = "groupBox_regul";
             this.groupBox_regul.TabStop = false;
             // 
             // groupBox4
             // 
-            resources.ApplyResources(this.groupBox4, "groupBox4");
             this.groupBox4.Controls.Add(this.label_Show_Pause);
             this.groupBox4.Controls.Add(this.label_Pause);
             this.groupBox4.Controls.Add(this.trackBar_Pause);
+            resources.ApplyResources(this.groupBox4, "groupBox4");
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.TabStop = false;
             // 
             // label_Show_Pause
             // 
-            resources.ApplyResources(this.label_Show_Pause, "label_Show_Pause");
             this.label_Show_Pause.BackColor = System.Drawing.Color.DarkSlateGray;
             this.label_Show_Pause.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.label_Show_Pause, "label_Show_Pause");
             this.label_Show_Pause.ForeColor = System.Drawing.Color.Yellow;
             this.label_Show_Pause.Name = "label_Show_Pause";
             // 
             // groupBox3
             // 
-            resources.ApplyResources(this.groupBox3, "groupBox3");
             this.groupBox3.Controls.Add(this.label_Show_Speed);
             this.groupBox3.Controls.Add(this.trackBar_Speed);
             this.groupBox3.Controls.Add(this.label_Speed);
+            resources.ApplyResources(this.groupBox3, "groupBox3");
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.TabStop = false;
             // 
             // label_Show_Speed
             // 
-            resources.ApplyResources(this.label_Show_Speed, "label_Show_Speed");
             this.label_Show_Speed.BackColor = System.Drawing.Color.DarkSlateGray;
             this.label_Show_Speed.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.label_Show_Speed, "label_Show_Speed");
             this.label_Show_Speed.ForeColor = System.Drawing.Color.Yellow;
             this.label_Show_Speed.Name = "label_Show_Speed";
             // 
             // groupBox2
             // 
-            resources.ApplyResources(this.groupBox2, "groupBox2");
             this.groupBox2.Controls.Add(this.label_Tone);
             this.groupBox2.Controls.Add(this.label_Show_Tone);
             this.groupBox2.Controls.Add(this.trackBar_Tone);
+            resources.ApplyResources(this.groupBox2, "groupBox2");
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.TabStop = false;
             // 
             // label_Show_Tone
             // 
-            resources.ApplyResources(this.label_Show_Tone, "label_Show_Tone");
             this.label_Show_Tone.BackColor = System.Drawing.Color.DarkSlateGray;
             this.label_Show_Tone.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.label_Show_Tone, "label_Show_Tone");
             this.label_Show_Tone.ForeColor = System.Drawing.Color.Yellow;
             this.label_Show_Tone.Name = "label_Show_Tone";
             // 
             // groupBox1
             // 
-            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Controls.Add(this.label_Show_N);
             this.groupBox1.Controls.Add(this.label_N);
             this.groupBox1.Controls.Add(this.trackBar_N);
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.TabStop = false;
             // 
             // label_Show_N
             // 
-            resources.ApplyResources(this.label_Show_N, "label_Show_N");
             this.label_Show_N.BackColor = System.Drawing.Color.DarkSlateGray;
             this.label_Show_N.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.label_Show_N, "label_Show_N");
             this.label_Show_N.ForeColor = System.Drawing.Color.Yellow;
             this.label_Show_N.Name = "label_Show_N";
             // 
@@ -322,10 +322,10 @@
             // 
             // groupBox_StartPause
             // 
-            resources.ApplyResources(this.groupBox_StartPause, "groupBox_StartPause");
             this.groupBox_StartPause.Controls.Add(this.checkBox_StartPause);
             this.groupBox_StartPause.Controls.Add(this.checkBox_infinity);
             this.groupBox_StartPause.Controls.Add(this.label_StartPause);
+            resources.ApplyResources(this.groupBox_StartPause, "groupBox_StartPause");
             this.groupBox_StartPause.Name = "groupBox_StartPause";
             this.groupBox_StartPause.TabStop = false;
             // 
@@ -339,16 +339,16 @@
             // 
             // label_StartPause
             // 
-            resources.ApplyResources(this.label_StartPause, "label_StartPause");
             this.label_StartPause.BackColor = System.Drawing.Color.DarkSlateGray;
             this.label_StartPause.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.label_StartPause, "label_StartPause");
             this.label_StartPause.ForeColor = System.Drawing.Color.Yellow;
             this.label_StartPause.Name = "label_StartPause";
             // 
             // groupBox5
             // 
-            resources.ApplyResources(this.groupBox5, "groupBox5");
             this.groupBox5.Controls.Add(this.label_FileName);
+            resources.ApplyResources(this.groupBox5, "groupBox5");
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.TabStop = false;
             // 
@@ -356,10 +356,6 @@
             // 
             this.saveFileDialog1.CheckPathExists = false;
             resources.ApplyResources(this.saveFileDialog1, "saveFileDialog1");
-            // 
-            // folderBrowserDialog1
-            // 
-            resources.ApplyResources(this.folderBrowserDialog1, "folderBrowserDialog1");
             // 
             // Cw_winForm
             // 
